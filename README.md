@@ -1,20 +1,21 @@
-# SUIPY
+### The SwiftUI App + Python Model Playbook
+
+By [@maxhumber](https://twitter.com/maxhumber)
 
 
-### Swift/Xcode
 
-1. Open Xcode
+#### Part 1 - Build the Skeleton
 
-2. Create new project > iOS > App > Next
+1. In Xcode create a New Project > `iOS` > `App`
 
-3. Project options:
+2. Select the following options:
 
-   - Name: "ImBoard"
+   - Name: `ImBoard`
 
-   - Interface: SwiftUI
-   - Life Cycle: SwiftUI App
+   - Interface: **`SwiftUI`**
+   - Life Cycle: **`SwiftUI App`**
 
-4. **ContentView.swift**
+3. Replace **`ContentView.swift`** with:
 
 ```swift
 import SwiftUI
@@ -34,12 +35,12 @@ struct ContentView: View {
 }
 ```
 
-5. New > **BoardGame.swift**
+4. Create a new file, **`Game.swift`**:
 
 ```swift
 import Foundation
 
-struct BoardGame {
+struct Game {
     var name: String
     var time: Int
     var age: Int
@@ -59,23 +60,21 @@ struct BoardGame {
 }
 ```
 
-6. New > **ViewModel.swift**
+6. Create a **`ViewModel.swift`**:
 
 ```swift
 import Combine
 
 class ViewModel: ObservableObject {
-    var boardGame = BoardGame(
-        name: "Catan", time: 90, age: 12, complexity: 3.5, category: .strategy
+    var game = Game(
+        name: "Pandemic", time: 45, age: 8, complexity: 2.41, category: .strategy
     )
 }
 ```
 
-7. Tweak **ContentView.swift**
+7. Tweak `ContentView`:
 
 ```swift
-import SwiftUI
-
 struct ContentView: View {
     @StateObject var viewModel = ViewModel()
     
@@ -83,11 +82,11 @@ struct ContentView: View {
         VStack(spacing: 20) {
             Text("I'm Board...")
                 .font(.largeTitle)
-            Text("\(viewModel.boardGame.name)")
-            Text("\(viewModel.boardGame.time)")
-            Text("\(viewModel.boardGame.age)")
-            Text("\(viewModel.boardGame.complexity)")
-            Text("\(viewModel.boardGame.category.rawValue)")
+            Text("\(viewModel.game.name)")
+            Text("\(viewModel.game.time)")
+            Text("\(viewModel.game.age)")
+            Text("\(viewModel.game.complexity)")
+            Text("\(viewModel.game.category.rawValue)")
             Button(action: {}) {
                 Text("Predict Fun!")
             }
@@ -98,50 +97,23 @@ struct ContentView: View {
 }
 ```
 
-8. Editible TextField:
+8. Swap out `Text("\(viewModel.game.name)")` for an editable `TextField`:
 
 ```swift
-import SwiftUI
-
-struct ContentView: View {
-    @StateObject var viewModel = ViewModel()
-    
-    var body: some View {
-        VStack(spacing: 20) {
-            Text("I'm Board...")
-                .font(.largeTitle)
-            TextField("Name", text: $viewModel.boardGame.name)
-            Text("\(viewModel.boardGame.time)")
-            Text("\(viewModel.boardGame.age)")
-            Text("\(viewModel.boardGame.category.rawValue)")
-            Text("\(viewModel.boardGame.complexity)")
-            Button(action: {}) {
-                Text("Predict Fun!")
-            }
-            Spacer()
-        }
-        .padding()
-    }
-}
+		TextField("Name", text: $viewModel.game.name)
 ```
 
-9. Add @Published to ViewModel:
+9. Force the `game` in the `ViewModel` to be `@Published`:
 
 ```swift
-import Combine
-
-class ViewModel: ObservableObject {
-    @Published var boardGame = BoardGame(
-        name: "Catan", time: 90, age: 12, complexity: 3.5, category: .strategy
+    @Published var game = Game(
+        name: "Pandemic", time: 45, age: 8, complexity: 2.41, category: .strategy
     )
-}
 ```
 
-10. Add Steppers, Sliders, and Pickers:
+10. Add `Stepper`s, `Slider`s, and `Picker`s to `ContentView`:
 
 ```swift
-import SwiftUI
-
 struct ContentView: View {
     @StateObject var viewModel = ViewModel()
     
@@ -150,17 +122,17 @@ struct ContentView: View {
             Text("I'm Board...")
                 .font(.largeTitle)
             Stepper(
-                "Time: \(viewModel.boardGame.time)",
-                value: $viewModel.boardGame.time, in: 5...120, step: 5)
+                "Time: \(viewModel.game.time)",
+                value: $viewModel.game.time, in: 5...120, step: 5)
             Stepper(
-                "Age: \(viewModel.boardGame.age)",
-                value: $viewModel.boardGame.age, in: 4...20, step: 4)
+                "Age: \(viewModel.game.age)",
+                value: $viewModel.game.age, in: 4...20, step: 4)
             HStack(spacing: 10) {
                 Text("Complexity")
-                Slider(value: $viewModel.boardGame.complexity, in: 0...5)
+                Slider(value: $viewModel.game.complexity, in: 0...5)
             }
-            Picker("Category", selection: $viewModel.boardGame.category) {
-                ForEach(BoardGame.Category.allCases, id: \.self) { category in
+            Picker("Category", selection: $viewModel.game.category) {
+                ForEach(Game.Category.allCases, id: \.self) { category in
                     Text(category.rawValue)
                 }
             }
@@ -174,106 +146,76 @@ struct ContentView: View {
 }
 ```
 
-11. Add a dumb predict function:
+11. Spoof out a `predict` method (to be replaced) in `ViewModel`:
 
 ```swift
+import Combine
+
 class ViewModel: ObservableObject {
-    @Published var boardGame = BoardGame(
-        name: "Catan", time: 90, age: 12, complexity: 3.5, category: .strategy
+    @Published var game = Game(
+        name: "Pandemic", time: 45, age: 8, complexity: 2.41, category: .strategy
     )
     @Published var prediction: Double?
     
     func predict() {
-        prediction = 8.9
+        prediction = 7.6
     }
 }
 ```
 
-12. Hook it up:
+12. Connect it to `ContentView` by replacing the empty `Button` with:
 
 ```swiftUI
-import SwiftUI
-
-struct ContentView: View {
-    @StateObject var viewModel = ViewModel()
-    
-    var body: some View {
-        VStack(spacing: 20) {
-            Text("I'm Board...")
-                .font(.largeTitle)
-            Stepper(
-                "Time: \(viewModel.boardGame.time)",
-                value: $viewModel.boardGame.time, in: 5...120, step: 5)
-            Stepper(
-                "Age: \(viewModel.boardGame.age)",
-                value: $viewModel.boardGame.age, in: 4...20, step: 4)
-            HStack(spacing: 10) {
-                Text("Complexity")
-                Slider(value: $viewModel.boardGame.complexity, in: 0...5)
-            }
-            Picker("Category", selection: $viewModel.boardGame.category) {
-                ForEach(BoardGame.Category.allCases, id: \.self) { category in
-                    Text(category.rawValue)
-                }
-            }
-            Button(action: viewModel.predict) {
-                Text("Predict Fun!")
-            }
-            if let prediction = viewModel.prediction {
-                Text("\(prediction)")
-            }
-            Spacer()
-        }
-        .padding()
+    Button(action: viewModel.predict) {
+        Text("Predict Fun!")
     }
-}
+    if let prediction = viewModel.prediction {
+        Text("\(prediction)")
+    }
 ```
 
 
 
-### Python
+#### Part 2 - Build the Brain
 
-13. Create a venv
+13. Create a `venv` at the command line:
 
-```
+```sh
 python -m venv .venv
 ```
 
-14. Activate
+14. Activate it:
 
-```
+```sh
 source .venv/bin/activate
 ```
 
-15. Install packages
+15. Install everything:
 
-(Note **scikit-learn==0.19.2** is the max version supported by Apple right now 😭)
+>  **scikit-learn==0.19.2** is the max supported version for this workflow right now 😭)
 
+```sh
+pip install coremltools scikit-learn==0.19.2 pandas tensorflow
 ```
-pip install coremltools scikit-learn==0.19.2 pandas 
-```
 
-16. **01-model.py**
+16. Create a **`01-model.py`**:
 
 ```python
 import pandas as pd
-from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+import coremltools as ct
 
 # load
 df = pd.read_csv('data/games.csv')
 
-# fix
-df["time"] = df["time"].apply(pd.to_numeric, errors="coerce")
-df["age"] = df["age"].apply(lambda x: pd.to_numeric(x.replace("+", ""), errors="coerce"))
-df = pd.concat([df, pd.get_dummies(df["category"])], axis=1)
-df.columns = [c.replace("'", "").lower() for c in df.columns]
-df = df.dropna()
-
 # split
 target = 'rating'
-predictors = ['time', 'age', 'complexity', 'abstract', 'childrens',
-    'customizable', 'family', 'party', 'strategy', 'thematic', 'wargames']
+predictors = [
+    'time', 'age', 'complexity', 'abstract',
+    'childrens', 'customizable', 'family', 'party',
+    'strategy', 'thematic', 'wargames'
+]
 y = df[target]
 X = df[predictors]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)
@@ -284,217 +226,174 @@ model.fit(X_train, y_train)
 print(model.score(X_train, y_train), model.score(X_test, y_test))
 
 # convert
-import coremltools as ct
 coreml_model = ct.converters.sklearn.convert(model, predictors, target)
-coreml_model.save('models/BoardGameRegressor.mlmodel')
+coreml_model.save('models/BoardGameRegressor1.mlmodel')
 ```
 
-17. Run the model @ command line
+17. Train and export the Regressor at the command line:
 
-```
+```sh
 python 01-model.py
 ```
 
 
 
-### Swift/Xcode
+#### Part 3 - Perform the Surgery
 
-18. Drag and drop created model into Folder Structure
-19. Update the predict method in the ViewModel:
+18. Drag+Drop **`BoardGameRegressor1.mlmodel`** into the Xcode Project Folder
+    - ✅ Copy items if needed
+    - ✅ Add to targets 
+19. Add `import CoreML` to the top of **`ViewModel.swift`**
+20. Replace the `predict` method in the `ViewModel` with:
 
 ```swift
-
-import Combine
-import CoreML
-
-class ViewModel: ObservableObject {
-    @Published var boardGame = BoardGame(
-        name: "Catan", time: 90, age: 12, complexity: 3.5, category: .strategy
-    )
-    @Published var prediction: Double?
-    
-    func predict() {
-        let abstract = boardGame.category == .abstract ? 1.0 : 0.0
-        let childrens = boardGame.category == .childrens ? 1.0 : 0.0
-        let customizable = boardGame.category == .customizable ? 1.0 : 0.0
-        let family = boardGame.category == .family ? 1.0 : 0.0
-        let party = boardGame.category == .party ? 1.0 : 0.0
-        let strategy = boardGame.category == .strategy ? 1.0 : 0.0
-        let thematic = boardGame.category == .thematic ? 1.0 : 0.0
-        let wargames = boardGame.category == .wargames ? 1.0 : 0.0
-        do {
-            let model: BoardGameRegressor = try BoardGameRegressor(configuration: .init())
-            let pred = try model.prediction(
-                time: Double(boardGame.time),
-                age: Double(boardGame.age),
-                complexity: boardGame.complexity,
-                abstract: abstract,
-                childrens: childrens,
-                customizable: customizable,
-                family: family,
-                party: party,
-                strategy: strategy,
-                thematic: thematic,
-                wargames: wargames
-            )
-            self.prediction = pred.rating
-        } catch {
-            self.prediction = nil
-        }
+func predict() {
+    do {
+        let model: BoardGameRegressor1 = try BoardGameRegressor1(configuration: .init())
+        let pred = try model.prediction(
+            time: Double(game.time),
+            age: Double(game.age),
+            complexity: game.complexity,
+            abstract: game.category == .abstract ? 1.0 : 0.0,
+            childrens: game.category == .childrens ? 1.0 : 0.0,
+            customizable: game.category == .customizable ? 1.0 : 0.0,
+            family: game.category == .family ? 1.0 : 0.0,
+            party: game.category == .party ? 1.0 : 0.0,
+            strategy: game.category == .strategy ? 1.0 : 0.0,
+            thematic: game.category == .thematic ? 1.0 : 0.0,
+            wargames: game.category == .wargames ? 1.0 : 0.0
+        )
+        self.prediction = pred.rating
+    } catch {
+        self.prediction = nil
     }
 }
 ```
 
-20. Make it auto-update
+21. Build and Run to see if it works!
+
+
+
+#### Part 4 - Make it Automagic
+
+22. Add some defaults to the `Game` struct:
 
 ```swift
-// BoardGame
-struct BoardGame {
-    var time: Int = 60
+struct Game {
+    var time: Int = 45
     var age: Int = 8
-    var complexity: Double = 3.5
+    var complexity: Double = 2.41
     var category: Category = .strategy
     
-    enum Category: String, CaseIterable {
-        case abstract = "Abstract"
-        case childrens = "Childrens"
-        case customizable = "Customizable"
-        case family = "Family"
-        case party = "Party"
-        case strategy = "Strategy"
-        case thematic = "Thematic"
-        case wargames = "Wargames"
-    }
+    // ...
 }
+```
 
-// top of ViewModel
-class ViewModel: ObservableObject {
-    @Published var boardGame = BoardGame() {
+23. Change the first couple of lines of `ViewModel` to:
+
+```swift
+    @Published var game = Game() {
         didSet { predict() }
     }
     @Published var prediction: Double?
-  
-...
-  
-// bottom of View
-struct ContentView: View {
-    @StateObject var viewModel = ViewModel()
-    
-    var body: some View {
-        VStack(spacing: 20) {
-            Text("I'm Board...")
-                .font(.largeTitle)
-            Stepper(
-                "Time: \(viewModel.boardGame.time)",
-                value: $viewModel.boardGame.time, in: 5...120, step: 5)
-            Stepper(
-                "Age: \(viewModel.boardGame.age)",
-                value: $viewModel.boardGame.age, in: 4...20, step: 4)
-            HStack(spacing: 10) {
-                Text("Complexity")
-                Slider(value: $viewModel.boardGame.complexity, in: 0...5)
-            }
-            Picker("Category", selection: $viewModel.boardGame.category) {
-                ForEach(BoardGame.Category.allCases, id: \.self) { category in
-                    Text(category.rawValue)
-                }
-            }
-            if let prediction = viewModel.prediction {
-                Text("\(prediction)")
-            }
-            Spacer()
-        }
-        .padding()
-        .onAppear(perform: viewModel.predict)
-    }
-}
+```
+
+24. Get rid of the button in `ContentView` and add the following to the end of the `VStack`:
+
+```swift
+    .onAppear(perform: viewModel.predict)
 ```
 
 
 
-### Python
+#### Part 5 - Improve the Brain
 
-21. Update model to work with TensorFlow:
+21. Create a **`02-model.py`** file that uses Tensorflow:
 
 ```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
+from sklearn.metrics import r2_score
+import coremltools as ct
 
 # load
 df = pd.read_csv('data/games.csv')
 
-# fix
-df["time"] = df["time"].apply(pd.to_numeric, errors="coerce")
-df["age"] = df["age"].apply(lambda x: pd.to_numeric(x.replace("+", ""), errors="coerce"))
-df = pd.concat([df, pd.get_dummies(df["category"])], axis=1)
-df.columns = [c.replace("'", "").lower() for c in df.columns]
-df = df.dropna()
-
 # split
 target = 'rating'
-predictors = ['time', 'age', 'complexity', 'abstract', 'childrens',
-    'customizable', 'family', 'party', 'strategy', 'thematic', 'wargames']
+predictors = [
+    'time', 'age', 'complexity', 'abstract',
+    'childrens', 'customizable', 'family', 'party',
+    'strategy', 'thematic', 'wargames'
+]
 y = df[target]
 X = df[predictors]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)
 
-# model
+# create
 model = tf.keras.Sequential([
-    tf.keras.layers.Input(shape=(X_train.shape[1])),
-    tf.keras.layers.Dense(10, activation=tf.nn.relu),
-    tf.keras.layers.Dense(5, activation=tf.nn.relu),
+    tf.keras.layers.Input(shape=(X_train.shape[1],)),
+    tf.keras.layers.Dense(8, activation=tf.nn.relu),
+    tf.keras.layers.Dense(4, activation=tf.nn.relu),
     tf.keras.layers.Dense(1),
 ])
+
+# compile
 model.compile(
     optimizer=tf.keras.optimizers.RMSprop(),
     loss=tf.keras.losses.mean_squared_error,
     metrics=tf.keras.metrics.mean_absolute_error
 )
-model.fit(X_train, y_train, epochs=500, validation_data=(X_test, y_test))
 
-from sklearn.metrics import r2_score
+# train
+model.fit(X_train, y_train, epochs=500, batch_size=32, validation_data=(X_test, y_test))
+
+# evaluate
 r2_score(y_test, model.predict(X_test).flatten())
 
 # convert
-import coremltools as ct
 coreml_model = ct.convert(model)
 coreml_model.save('models/BoardGameRegressor2.mlmodel')
 ```
 
-### Swift/Xcode
 
-22. Drag & Drop and change the ViewModel to match
 
-```
-class ViewModel: ObservableObject {
-    @Published var boardGame = BoardGame() {
-        didSet { predict() }
-    }
-    @Published var prediction: Double?
-    
+#### Part 6 - Surgery, Again
+
+22. Drag+Drop **`BoardGameRegressor2.mlmodel`** into the Xcode Project Folder
+    - ✅ Copy items if needed
+    - ✅ Add to targets 
+23. Update the `predict` method in the `ViewModel` to match:
+
+> Note: shape: [1, 11] comes from the number of column/features
+
+```swift
     func predict() {
         do {
-            let mlArray = try? MLMultiArray(shape: [1, 11], dataType: MLMultiArrayDataType.float32)
-            mlArray![0] = NSNumber(value: boardGame.time)
-            mlArray![1] = NSNumber(value: boardGame.age)
-            mlArray![2] = NSNumber(value: boardGame.complexity)
-            mlArray![3] = NSNumber(value: boardGame.category == .abstract ? 1.0 : 0.0)
-            mlArray![4] = NSNumber(value: boardGame.category == .childrens ? 1.0 : 0.0)
-            mlArray![5] = NSNumber(value: boardGame.category == .customizable ? 1.0 : 0.0)
-            mlArray![6] = NSNumber(value: boardGame.category == .family ? 1.0 : 0.0)
-            mlArray![7] = NSNumber(value: boardGame.category == .party ? 1.0 : 0.0)
-            mlArray![8] = NSNumber(value: boardGame.category == .strategy ? 1.0 : 0.0)
-            mlArray![9] = NSNumber(value: boardGame.category == .thematic ? 1.0 : 0.0)
-            mlArray![9] = NSNumber(value: boardGame.category == .wargames ? 1.0 : 0.0)
+            let mlArray = try? MLMultiArray(
+                shape: [1, 11], dataType: MLMultiArrayDataType.float32
+            )
+            mlArray![0] = NSNumber(value: game.time)
+            mlArray![1] = NSNumber(value: game.age)
+            mlArray![2] = NSNumber(value: game.complexity)
+            mlArray![3] = NSNumber(value: game.category == .abstract ? 1.0 : 0.0)
+            mlArray![4] = NSNumber(value: game.category == .childrens ? 1.0 : 0.0)
+            mlArray![5] = NSNumber(value: game.category == .customizable ? 1.0 : 0.0)
+            mlArray![6] = NSNumber(value: game.category == .family ? 1.0 : 0.0)
+            mlArray![7] = NSNumber(value: game.category == .party ? 1.0 : 0.0)
+            mlArray![8] = NSNumber(value: game.category == .strategy ? 1.0 : 0.0)
+            mlArray![9] = NSNumber(value: game.category == .thematic ? 1.0 : 0.0)
+            mlArray![9] = NSNumber(value: game.category == .wargames ? 1.0 : 0.0)
             let model: BoardGameRegressor2 = try BoardGameRegressor2(configuration: .init())
-            let pred = try model.prediction(input: BoardGameRegressor2Input(input_3: mlArray!))
+            let pred = try model.prediction(input: 
+                BoardGameRegressor2Input(input_5: mlArray!)
+            )
             self.prediction = Double(truncating: pred.Identity[0])
         } catch {
             self.prediction = nil
         }
     }
-}
-
 ```
 
+24. Build and Run!  🎉

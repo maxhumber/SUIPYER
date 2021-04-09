@@ -11,8 +11,7 @@ options.headless = True
 browser = Firefox(executable_path="/usr/local/bin/geckodriver", options=options)
 
 links = []
-# [1, 2, 3, 4, 99, 100, 101, 200, 201, 300, 301, 302]
-pages = [5, 6, 7, 8, 9, 10, 102, 202]
+pages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 101, 102, 200, 201, 202, 300, 301, 302]
 for page in tqdm(pages):
     url = f"https://boardgamegeek.com/browse/boardgame/page/{page}"
     browser.get(url)
@@ -58,4 +57,4 @@ df.columns = [c.replace("'", "").lower() for c in df.columns]
 df = df.dropna()
 df = df.drop("category", axis=1)
 df = df.reset_index(drop=True)
-df.to_csv("data/games2.csv", index=False)
+df.to_csv("data/games.csv", index=False)
