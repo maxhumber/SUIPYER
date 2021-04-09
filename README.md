@@ -1,4 +1,4 @@
-### The SwiftUI App + Python Model Playbook
+### The [S]wift[UI] + [Py]thon Playbook (SUIPYER)
 
 By [@maxhumber](https://twitter.com/maxhumber)
 
@@ -6,14 +6,14 @@ By [@maxhumber](https://twitter.com/maxhumber)
 
 #### Part 1 - Build the Skeleton
 
-1. In Xcode create a New Project > `iOS` > `App`
+1. In Xcode create a New Project > **iOS** > **App**
 
 2. Select the following options:
 
-   - Name: `ImBoard`
+   - Name: **ImBoard**
 
-   - Interface: **`SwiftUI`**
-   - Life Cycle: **`SwiftUI App`**
+   - Interface: **SwiftUI**
+   - Life Cycle: **SwiftUI App**
 
 3. Replace **`ContentView.swift`** with:
 
@@ -163,7 +163,7 @@ class ViewModel: ObservableObject {
 }
 ```
 
-12. Connect it to `ContentView` by replacing the empty `Button` with:
+12. Connect it to `ContentView` by replacing the empty `Button(action: {})` with:
 
 ```swiftUI
     Button(action: viewModel.predict) {
@@ -298,7 +298,7 @@ struct Game {
     @Published var prediction: Double?
 ```
 
-24. Get rid of the button in `ContentView` and add the following to the end of the `VStack`:
+24. Get rid of the `Button` in `ContentView` and add the following to the end of the `VStack`:
 
 ```swift
     .onAppear(perform: viewModel.predict)
@@ -357,14 +357,22 @@ coreml_model = ct.convert(model)
 coreml_model.save('models/BoardGameRegressor2.mlmodel')
 ```
 
+22. Run at the command line:
+
+```sh
+python 02-model.py
+```
+
 
 
 #### Part 6 - Surgery, Again
 
-22. Drag+Drop **`BoardGameRegressor2.mlmodel`** into the Xcode Project Folder
-    - ✅ Copy items if needed
-    - ✅ Add to targets 
-23. Update the `predict` method in the `ViewModel` to match:
+23. Drag+Drop **`BoardGameRegressor2.mlmodel`** into the Xcode Project Folder
+
+- ✅ Copy items if needed
+- ✅ Add to targets 
+
+24. Update the `predict` method in the `ViewModel` to match:
 
 > Note: shape: [1, 11] comes from the number of column/features
 
@@ -386,8 +394,8 @@ coreml_model.save('models/BoardGameRegressor2.mlmodel')
             mlArray![9] = NSNumber(value: game.category == .thematic ? 1.0 : 0.0)
             mlArray![9] = NSNumber(value: game.category == .wargames ? 1.0 : 0.0)
             let model: BoardGameRegressor2 = try BoardGameRegressor2(configuration: .init())
-            let pred = try model.prediction(input: 
-                BoardGameRegressor2Input(input_5: mlArray!)
+            let pred = try model.prediction(input:
+                BoardGameRegressor2Input(input_1: mlArray!)
             )
             self.prediction = Double(truncating: pred.Identity[0])
         } catch {
@@ -396,4 +404,4 @@ coreml_model.save('models/BoardGameRegressor2.mlmodel')
     }
 ```
 
-24. Build and Run!  🎉
+25. Build and Run!  🎉
