@@ -1,306 +1,736 @@
-name,rating,time,age,complexity,category
-Aeon's End: War Eternal,8.4,60,14+,2.92,Strategy
-Captain Sonar,7.6,45,14+,2.15,Party
-Cosmic Encounter,7.5,60,12+,2.57,Strategy
-Marvel Champions: The Card Game,8.2,45,14+,2.81,Customizable
-Architects of the West Kingdom,7.8,60,12+,2.78,Strategy
-Flying Hats,4.7,10,4+,1.00,Children's
-Maracaibo,8.3,30,12+,3.88,Strategy
-Pandemic Legacy: Season 1,8.6,60,13+,2.84,Strategy
-Pandemic Legacy: Season 2,8.1,60,14+,3.25,Thematic
-Chronicles of Crime,7.8,60,14+,2.10,Thematic
-Descent: Journeys in the Dark (Second Edition),7.7,120,14+,3.20,Thematic
-Galaxy Trucker,7.4,60,10+,2.33,Thematic
-Just One,7.6,20,8+,1.06,Party
-Shogun,7.5,90,12+,3.37,Strategy
-Codenames,7.6,15,14+,1.29,Party
-The Isle of Cats,8.0,60,8+,2.33,Family
-Too Many Bones,8.4,60,12+,3.85,Strategy
-It's a Wonderful World,7.9,30,14+,2.28,Strategy
-Memoir '44,7.6,30,8+,2.27,Wargames
-Star Wars: Imperial Assault,8.0,60,14+,3.31,Thematic
-We Were Brothers,7.6,120,15+,3.36,Wargames
-Le Havre,7.9,30,12+,3.74,Strategy
-Caverna: The Cave Farmers,8.0,30,12+,3.79,Strategy
-7,5.0,120,15+,3.11,Thematic
-Tigris & Euphrates,7.7,90,12+,3.51,Strategy
-Battlefield Command,0.0,Time: ––,10+,0.00,Wargames
-Detective: A Modern Crime Board Game,7.9,120,16+,2.72,Thematic
-Gambit,4.7,Time: ––,10+,0.00,Wargames
-Flink,8.0,20,10+,2.00,Abstract
-Food Chain Magnate,8.1,120,14+,4.20,Strategy
-Operation October Typhoon,5.5,360,––,2.00,Wargames
-Teotihuacan: City of Gods,8.0,90,14+,3.77,Strategy
-Nemesis,8.4,90,12+,3.34,Thematic
-Yokohama,7.9,90,14+,3.28,Strategy
-Rising Sun,7.9,90,14+,3.27,Strategy
-Trickerion: Legends of Illusion,7.9,60,14+,4.21,Strategy
-Pacific Fleet Command,0.0,Time: ––,12+,0.00,Wargames
-Power Grid,7.9,120,12+,3.27,Strategy
-An Attrition of Souls,7.8,30,14+,2.50,Wargames
-Village,7.5,60,12+,3.07,Strategy
-Endeavor: Age of Sail,8.0,60,13+,2.80,Strategy
-Champions of Midgard,7.8,60,10+,2.59,Strategy
-Zingo!,5.3,5,4+,1.03,Children's
-Clank! Legacy: Acquisitions Incorporated,8.8,90,13+,2.68,Thematic
-The Crew: The Quest for Planet Nine,8.0,20,10+,2.00,Family
-Raiders of the North Sea,7.8,60,12+,2.53,Strategy
-I Am Vlad: Prince of Wallachia,4.7,120,13+,2.92,Thematic
-Underwater Cities,8.1,80,12+,3.60,Strategy
-Res Arcana,7.8,20,12+,2.58,Strategy
-Targi,7.6,60,12+,2.36,Strategy
-Codenames: Duet,7.6,15,11+,1.34,Family
-Magic: The Gathering,7.5,20,13+,3.22,Customizable
-Carcassonne,7.4,30,7+,1.91,Family
-Terraforming Mars,8.4,120,12+,3.24,Strategy
-Gloomhaven,8.8,60,14+,3.86,Strategy
-Istanbul,7.6,40,10+,2.58,Strategy
-Mechs vs. Minions,8.0,60,14+,2.42,Strategy
-Frantic Frankfurt,5.0,10,8+,1.22,Family
-Taiheiki,8.2,120,12+,1.80,Wargames
-Autokrator,6.3,90,12+,2.46,Strategy
-Hydra!: The Ultimate Starcruiser?,0.0,60,12+,3.00,Wargames
-Xia: Legends of a Drift System,7.9,60,12+,3.17,Strategy
-Puerto Rico,8.0,90,12+,3.28,Strategy
-The Castles of Burgundy,8.1,30,12+,3.00,Strategy
-Legendary Encounters: An Alien Deck Building Game,7.8,30,17+,2.71,Thematic
-Arcadia Quest,7.7,60,13+,2.53,Thematic
-Sudoku Moyo,4.6,30,––,1.90,Abstract
-La Granja,7.7,90,12+,3.59,Strategy
-Eclipse,7.9,60,14+,3.70,Strategy
-Paths of Glory,8.1,480,14+,3.84,Wargames
-+ 0,8.0,30,12+,4.00,Wargames
-Crokinole,7.9,30,8+,1.26,Family
-Santorini,7.5,20,8+,1.73,Abstract
-Go,7.6,30,8+,4.00,Abstract
-Days of Decision,6.3,360,12+,3.79,Wargames
-Vinhos Deluxe Edition,8.2,60,14+,4.05,Strategy
-Spirit Island,8.4,90,13+,4.01,Strategy
-Star Wars: Rebellion,8.4,180,14+,3.71,Thematic
-Trajan,7.8,60,12+,3.65,Strategy
-Crossfire,5.3,10,7+,1.13,Children's
-Sea Lion,5.9,Time: ––,12+,2.00,Wargames
-Clocktowers,5.7,20,8+,1.39,Family
-Suburbia,7.5,60,8+,2.77,Strategy
-Century: Golem Edition,7.7,30,8+,1.66,Family
-Terra Mystica,8.1,60,12+,3.96,Strategy
-Azul: Summer Pavilion,7.8,30,8+,2.04,Abstract
-YINSH,7.7,30,9+,2.70,Abstract
-The Resistance: Avalon,7.6,30,13+,1.77,Party
-Great Western Trail,8.3,75,12+,3.71,Strategy
-7 Wonders Duel,8.1,30,10+,2.22,Strategy
-Great War at Sea: U.S. Navy Plan Black,6.7,120,12+,2.40,Wargames
-Armada: The War With Spain 1585-1604,5.0,480,12+,3.00,Wargames
-That's Pretty Clever!,7.6,30,8+,1.89,Family
-Mr. Bucket,3.5,10,4+,1.00,Children's
-Mythfire,5.0,30,9+,3.00,Wargames
-Yom Kippur,7.0,120,12+,3.40,Wargames
-Trivial Pursuit: Junior,4.9,60,8+,1.20,Children's
-Viticulture,7.6,90,13+,2.93,Strategy
-Power,6.0,30,10+,2.63,Abstract
-Star Realms: Colony Wars,7.9,20,12+,1.90,Strategy
-Legendary: A Marvel Deck Building Game,7.6,30,14+,2.44,Thematic
-Nations,7.6,40,14+,3.54,Strategy
-Malefiz,5.4,60,8+,1.20,Family
-Brass: Lancashire,8.2,60,14+,3.86,Strategy
-Five Little Monkeys Jumping on the Bed,4.2,10,3+,1.38,Children's
-Tichu,7.6,60,10+,2.34,Strategy
-Mansions of Madness: Second Edition,8.1,120,14+,2.68,Thematic
-Tank on Tank: West Front,7.3,20,10+,1.71,Wargames
-"Win, Lose, or Banana",5.4,1,4+,1.07,Party
-The Voyages of Marco Polo,7.9,40,12+,3.18,Strategy
-Napoleon at Chattanooga,5.9,120,12+,0.00,Wargames
-Simply Ingenious,5.3,20,7+,1.17,Family
-+ 0,7.0,120,12+,5.00,Wargames
-Pandemic: Iberia,7.9,45,8+,2.57,Strategy
-+ 0,6.3,480,12+,3.00,Wargames
-Curse of the Idol,5.3,60,8+,1.22,Children's
-Lords of Waterdeep,7.8,60,12+,2.46,Strategy
-The Lord of the Rings: The Card Game,7.6,30,13+,3.18,Customizable
-My First Brain Quest Preschool Animal Matching,6.0,10,2+,1.00,Children's
-Quao,5.0,60,12+,1.10,Party
-Global Pursuit,5.2,60,10+,1.84,Family
-Dinosaur Island,7.7,90,8+,3.04,Strategy
-Dr. Seuss Green Eggs and Ham Game,4.1,30,4+,1.13,Children's
-Lost Ruins of Arnak,8.2,30,12+,2.75,Family
-The Game is Nirtz,5.0,Time: ––,10+,0.00,Abstract
-Azul,7.8,30,8+,1.76,Abstract
-Chaos in the Old World,7.7,60,13+,3.19,Strategy
-Twilight Imperium: Fourth Edition,8.7,240,14+,4.23,Strategy
-Keyflower,7.8,90,12+,3.35,Strategy
-Goa,7.6,90,12+,3.38,Strategy
-Ora et Labora,7.7,60,13+,3.90,Strategy
-Twilight Struggle,8.3,120,13+,3.59,Strategy
-Hansa Teutonica,7.7,45,12+,3.12,Strategy
-Decrypto,7.8,15,12+,1.82,Party
-Alchemists,7.7,120,13+,3.90,Strategy
-Cartographers,7.8,30,10+,1.91,Family
-Cir*Kis,5.3,15,8+,1.67,Abstract
-S.A.B.O.T.,0.0,30,12+,0.00,Wargames
-Spinner Dominoes,6.6,30,––,1.13,Abstract
-Concordia,8.1,100,13+,3.02,Strategy
-Forbidden Stars,8.0,120,14+,3.83,Strategy
-Dominion: Intrigue,7.7,30,13+,2.42,Strategy
-Orléans,8.1,90,12+,3.05,Strategy
-Sekigahara: The Unification of Japan,8.0,180,14+,2.78,Wargames
-Twilight Imperium: Third Edition,7.8,180,14+,4.25,Strategy
-Clank! In! Space!: A Deck-Building Adventure,7.9,45,12+,2.53,Strategy
-Continuo,5.3,20,4+,1.41,Abstract
-Ra,7.5,45,12+,2.35,Strategy
-Alaska,5.8,60,12+,1.44,Family
-Battleland Fantasy Miniature Gaming,4.5,Time: ––,12+,0.00,Wargames
-Redneck Life,5.4,60,13+,1.43,Party
-Tyrants of the Underdark,7.9,60,14+,2.57,Strategy
-Galaxy's Edge,6.1,60,10+,2.39,Strategy
-Check Your 6! Jet Age,8.0,120,12+,3.11,Wargames
-Wingspan,8.1,40,10+,2.42,Family
-Gators!,6.8,30,12+,4.50,Wargames
-Patchwork,7.7,15,8+,1.63,Abstract
-Kemet,7.7,90,13+,3.00,Strategy
-Secret Hitler,7.6,45,13+,1.69,Party
-Mombasa,7.9,75,12+,3.90,Strategy
-Paladins of the West Kingdom,8.1,90,12+,3.67,Strategy
-7 Wonders,7.7,30,10+,2.33,Family
-Chef Alfredo,6.0,15,5+,1.00,Children's
-Anachrony,8.1,30,15+,4.00,Strategy
-Orbital Battle,0.0,30,12+,0.00,Wargames
-Oosterbeek Perimeter,8.3,300,12+,3.25,Wargames
-Gloomhaven: Jaws of the Lion,8.8,30,14+,3.56,Strategy
-Combined Arms: Combat Operations in the 20th Century,4.5,120,12+,2.64,Wargames
-ElfBall,7.1,75,––,2.88,Strategy
-Dominoes,5.5,30,5+,1.38,Abstract
-Das Kleine Gespenst,6.0,15,5+,1.20,Children's
-Agricola,7.9,30,12+,3.64,Strategy
-A Game of Thrones: The Board Game (Second Edition),7.6,120,14+,3.72,Strategy
-+ 2,7.5,30,12+,0.00,Wargames
-A Bridge Too Far: Operation Market Garden,7.0,90,12+,2.11,Wargames
-El Grande,7.8,60,12+,3.05,Strategy
-Cranium Cadoo,5.3,45,7+,1.20,Children's
-Gekitsui oh,5.0,360,12+,4.00,Wargames
-Coloption,0.0,Time: ––,––,0.00,Abstract
-Everdell,8.1,40,13+,2.81,Family
-Axis Threat,0.0,360,12+,0.00,Wargames
-Wabbit Wampage,6.0,120,12+,2.00,Thematic
-We Didn't Playtest This At All,5.5,1,12+,1.09,Party
-A Feast for Odin,8.2,30,12+,3.84,Strategy
-Age of Steam,7.8,120,13+,3.90,Strategy
-1800: Colorado,6.2,90,16+,3.57,Strategy
-Dune: Imperium,8.4,60,14+,2.90,Strategy
-Zombicide: Black Plague,7.7,60,14+,2.51,Thematic
-Scythe,8.2,90,14+,3.41,Strategy
-Lisboa,8.2,60,12+,4.55,Strategy
-"The Punic Wars: Rome vs Carthage, 264-146 B.C.",6.1,60,12+,2.48,Wargames
-Railways of the World,7.7,120,10+,3.02,Strategy
-Domain,6.1,15,8+,1.78,Abstract
-Clank!: A Deck-Building Adventure,7.8,30,12+,2.21,Family
-Gauss,7.0,15,10+,1.75,Abstract
-Turn The Terrible Tank,6.3,5,6+,1.00,Children's
-Through the Ages: A Story of Civilization,7.9,120,12+,4.17,Strategy
-Romance of the Three Kingdoms,5.6,360,12+,2.00,Wargames
-The Princes of Florence,7.5,75,12+,3.25,Strategy
-Caylus,7.8,60,12+,3.80,Strategy
-On Mars,8.3,90,14+,4.64,Strategy
-Five Tribes,7.8,40,13+,2.86,Strategy
-Near and Far,7.8,90,13+,2.83,Thematic
-Tinian: The Forgotten Battle,8.2,120,14+,3.60,Wargames
-The Last Straw,5.0,15,5+,1.00,Children's
-War of the Ring,7.8,120,12+,3.85,Thematic
-Lorenzo il Magnifico,7.9,60,12+,3.27,Strategy
-Ticket to Ride: Nordic Countries,7.6,30,8+,1.98,Family
-Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases,7.7,60,13+,2.68,Thematic
-Castles of Mad King Ludwig,7.6,90,13+,2.66,Strategy
-World War 3: 1976-1984,5.0,360,12+,3.27,Wargames
-Welcome To...,7.6,25,10+,1.82,Family
-Tenjo,5.0,360,12+,3.69,Wargames
-Elixir,6.0,60,6+,1.41,Family
-Rajas of the Ganges,7.7,45,12+,2.87,Strategy
-T.I.M.E Stories,7.5,90,12+,2.61,Thematic
-Kanban: Driver's Edition,7.8,90,12+,4.35,Strategy
-Troyes,7.8,90,12+,3.46,Strategy
-Westphalia,7.1,120,––,3.17,Wargames
-The Quacks of Quedlinburg,7.8,45,10+,1.94,Family
-Battlestar Galactica: The Board Game,7.7,120,14+,3.24,Thematic
-Curli Kuller,6.6,20,5+,1.00,Children's
-Karo,6.6,20,8+,2.00,Abstract
-Helios,8.0,60,10+,0.00,Abstract
-Clans of Caledonia,8.0,30,12+,3.46,Strategy
-Rotundo,0.0,20,––,0.00,Abstract
-Starcross,0.0,60,––,0.00,Wargames
-Horrified,7.8,60,10+,2.05,Thematic
-Coimbra,7.7,60,14+,3.28,Strategy
-Aeon's End,8.0,60,14+,2.78,Strategy
-Marco Polo II: In the Service of the Khan,8.2,60,12+,3.40,Strategy
-Monsters Ravage America,5.8,90,10+,2.19,Thematic
-Brass: Birmingham,8.7,60,14+,3.91,Strategy
-Dominant Species,7.8,120,14+,4.04,Strategy
-Mage Knight Board Game,8.1,60,14+,4.31,Strategy
-PARKS,7.9,30,10+,2.17,Family
-Ouro de Tolo,6.7,40,8+,1.17,Family
-Root,8.1,60,10+,3.68,Strategy
-Jaipur,7.5,30,12+,1.49,Family
-Isolate,4.5,45,8+,1.75,Abstract
-The Lord of the Rings: Journeys in Middle-Earth,8.1,60,14+,2.56,Thematic
-Code Cracker,6.0,30,8+,1.23,Family
-Watergate,8.0,30,12+,2.25,Strategy
-China: The Middle Kingdom,6.8,Time: ––,12+,3.00,Wargames
-Kogworks,6.1,30,6+,1.55,Abstract
-Convoy Defender,0.0,Time: ––,10+,0.00,Wargames
-Pandemic,7.6,45,8+,2.41,Family
-This War of Mine: The Board Game,7.8,45,18+,3.26,Thematic
-Der Herr der Ringe: Die Gefährten,4.8,60,10+,1.60,Family
-LEGO Racers Super Speedway Game,4.6,30,5+,1.20,Children's
-Stone Age,7.6,60,10+,2.48,Family
-History of the Second World War,4.1,360,12+,2.50,Wargames
-Race for the Galaxy,7.8,30,12+,2.98,Strategy
-1830: Railways & Robber Barons,7.9,180,14+,4.16,Strategy
-Pax Pamir: Second Edition,8.4,45,13+,3.79,Strategy
-Hedbanz for Adults!,5.4,60,8+,1.09,Party
-Russian Railroads,7.8,90,12+,3.41,Strategy
-Ticket to Ride,7.4,30,8+,1.85,Family
-Inis,7.8,60,14+,2.88,Strategy
-Gaia Project,8.5,60,12+,4.35,Strategy
-Eldritch Horror,7.8,120,14+,3.32,Thematic
-Dead of Winter: A Crossroads Game,7.6,60,13+,3.02,Thematic
-Sagrada,7.5,30,14+,1.93,Abstract
-Steam,7.6,90,10+,3.46,Strategy
-Warfare in the Age of Reason,7.6,180,12+,3.33,Wargames
-Star Wars: X-Wing Miniatures Game,7.7,30,14+,2.49,Customizable
-Sushi Go Party!,7.5,20,8+,1.31,Family
-Therapy,5.3,90,16+,1.42,Party
-Ticket to Ride: Europe,7.5,30,8+,1.94,Family
-Cyclades,7.5,60,13+,2.82,Strategy
-Roll for the Galaxy,7.7,45,13+,2.77,Strategy
-Spearhead,6.7,120,12+,2.92,Wargames
-Roll Player,7.5,60,10+,2.39,Strategy
-Star Realms,7.6,20,12+,1.94,Strategy
-Tzolk'in: The Mayan Calendar,7.9,90,13+,3.67,Strategy
-War of the Ring: Second Edition,8.5,150,13+,4.15,Thematic
-Viticulture Essential Edition,8.1,45,13+,2.90,Strategy
-Blood Rage,8.0,60,14+,2.88,Strategy
-Robinson Crusoe: Adventures on the Cursed Island,7.8,60,14+,3.78,Thematic
-Agricola (Revised Edition),8.0,30,12+,3.50,Strategy
-Dominion,7.6,30,13+,2.36,Strategy
-Advance to Boardwalk,5.4,60,8+,1.55,Family
-Splendor,7.4,30,10+,1.80,Family
-Commands & Colors: Ancients,7.8,60,12+,2.69,Wargames
-Through the Ages: A New Story of Civilization,8.4,120,14+,4.41,Strategy
-Tainted Grail: The Fall of Avalon,8.4,60,14+,3.29,Thematic
-Combat Commander: Europe,7.9,60,12+,3.25,Wargames
-The Gallerist,8.0,60,13+,4.28,Strategy
-Barrage,8.2,60,14+,4.03,Strategy
-Android: Netrunner,7.9,45,14+,3.38,Customizable
-"June '44: The Struggle for Normandy, 1944",7.3,120,––,2.11,Wargames
-Fields of Arle,8.1,60,13+,3.88,Strategy
-Arkham Horror: The Card Game,8.2,60,14+,3.44,Customizable
-Deception: Murder in Hong Kong,7.5,20,14+,1.60,Party
-Secrets of the Tombs,4.9,30,8+,1.76,Family
-Caesar in Gallia: Conquest on the Ancient Frontier,6.9,300,––,3.07,Wargames
-Grand Austria Hotel,7.9,60,12+,3.22,Strategy
-The 7th Continent,8.1,5,14+,2.87,Thematic
-The Quest for El Dorado,7.6,30,10+,1.92,Family
-Borodino: Doomed Victory,4.3,240,12+,3.20,Wargames
-Stalingrad,6.2,360,12+,3.00,Wargames
-Saikoro,6.6,10,8+,1.56,Abstract
-Eclipse: Second Dawn for the Galaxy,8.8,60,14+,3.47,Strategy
-Cthulhu: Death May Die,8.2,90,14+,2.41,Thematic
-Kingdom Death: Monster,8.7,60,17+,4.25,Thematic
+name,rating,time,age,complexity,abstract,childrens,customizable,family,party,strategy,thematic,wargames
+Isle of Skye: From Chieftain to King,7.4,30.0,8.0,2.25,0,0,0,1,0,0,0,0
+Flamme Rouge,7.6,30.0,8.0,1.68,0,0,0,1,0,0,0,0
+Hero Realms,7.6,20.0,12.0,1.91,0,0,1,0,0,0,0,0
+Glory to Rome,7.5,60.0,12.0,2.93,0,0,0,0,0,1,0,0
+Lewis & Clark: The Expedition,7.5,120.0,14.0,3.34,0,0,0,0,0,1,0,0
+1960: The Making of the President,7.6,90.0,12.0,3.21,0,0,0,0,0,1,0,0
+Space Base,7.6,60.0,14.0,2.12,0,0,0,1,0,0,0,0
+Hanamikoji,7.5,15.0,10.0,1.70,0,0,0,1,0,0,0,0
+Power Grid Deluxe: Europe/North America,8.0,120.0,12.0,3.19,0,0,0,0,0,1,0,0
+Bora Bora,7.6,60.0,12.0,3.74,0,0,0,0,0,1,0,0
+Samurai,7.5,30.0,10.0,2.49,0,0,0,0,0,1,0,0
+Dungeon Petz,7.5,90.0,13.0,3.61,0,0,0,0,0,1,0,0
+Imperial,7.6,120.0,13.0,3.57,0,0,0,0,0,1,0,0
+Pulsar 2849,7.7,60.0,14.0,3.34,0,0,0,0,0,1,0,0
+Seasons,7.4,60.0,14.0,2.77,0,0,0,0,0,1,0,0
+Imperial Settlers,7.4,45.0,10.0,2.77,0,0,0,0,0,1,0,0
+Dixit: Odyssey,7.5,30.0,8.0,1.19,0,0,0,0,1,0,0,0
+Age of Empires III: The Age of Discovery,7.5,90.0,10.0,3.13,0,0,0,0,0,1,0,0
+Kingdomino,7.4,15.0,8.0,1.21,0,0,0,1,0,0,0,0
+Glen More II: Chronicles,8.0,90.0,12.0,3.06,0,0,0,0,0,1,0,0
+Modern Art,7.4,45.0,10.0,2.30,0,0,0,0,0,1,0,0
+Undaunted: Normandy,7.9,45.0,14.0,2.26,0,0,0,0,0,0,1,0
+Dominion (Second Edition),7.9,30.0,14.0,2.17,0,0,0,0,0,1,0,0
+Lords of Hellas,7.8,60.0,14.0,3.32,0,0,0,0,0,1,0,0
+Space Alert,7.4,30.0,12.0,2.96,0,0,0,0,0,0,1,0
+Fury of Dracula (Third/Fourth Edition),7.5,120.0,14.0,3.22,0,0,0,0,0,0,1,0
+Battle Line,7.4,30.0,12.0,1.90,0,0,0,0,0,1,0,0
+Concordia Venus,8.4,60.0,12.0,3.08,0,0,0,0,0,1,0,0
+Dead of Winter: The Long Night,7.6,60.0,14.0,3.41,0,0,0,0,0,0,1,0
+Rococo,7.6,60.0,12.0,3.09,0,0,0,0,0,1,0,0
+Summoner Wars: Master Set,7.5,30.0,9.0,2.51,0,0,1,0,0,0,0,0
+Exit: The Game – The Abandoned Cabin,7.5,60.0,12.0,2.54,0,0,0,1,0,0,0,0
+Navegador,7.5,60.0,12.0,3.10,0,0,0,0,0,1,0,0
+Tapestry,7.5,90.0,12.0,2.87,0,0,0,0,0,1,0,0
+The Manhattan Project: Energy Empire,7.8,60.0,13.0,3.03,0,0,0,0,0,1,0,0
+Runewars,7.6,180.0,14.0,3.78,0,0,0,0,0,1,0,0
+Alien Frontiers,7.4,90.0,13.0,2.57,0,0,0,0,0,1,0,0
+Indonesia,7.9,180.0,14.0,3.98,0,0,0,0,0,1,0,0
+Viscounts of the West Kingdom,8.1,60.0,12.0,3.46,0,0,0,0,0,1,0,0
+Imperial 2030,7.7,120.0,12.0,3.50,0,0,0,0,0,1,0,0
+Burgle Bros.,7.5,45.0,12.0,2.31,0,0,0,1,0,0,0,0
+Aeon's End: Legacy,8.2,45.0,14.0,2.83,0,0,0,0,0,1,0,0
+Hannibal: Rome vs. Carthage,7.8,40.0,12.0,3.45,0,0,0,0,0,0,0,1
+Vindication,7.9,45.0,14.0,3.07,0,0,0,0,0,1,0,0
+BattleLore (Second Edition),7.7,45.0,14.0,2.70,0,0,0,0,0,0,0,1
+Western Legends,7.7,60.0,14.0,2.79,0,0,0,0,0,0,1,0
+Antiquity,7.9,120.0,14.0,4.31,0,0,0,0,0,1,0,0
+Pandemic Legacy: Season 0,8.8,45.0,14.0,3.14,0,0,0,0,0,0,1,0
+Cthulhu Wars,7.9,90.0,14.0,3.14,0,0,0,0,0,1,0,0
+Hive,7.3,20.0,9.0,2.33,1,0,0,0,0,0,0,0
+Onitama,7.4,15.0,8.0,1.71,1,0,0,0,0,0,0,0
+War Chest,7.9,30.0,14.0,2.29,1,0,0,0,0,0,0,0
+Ethnos,7.5,45.0,14.0,2.03,0,0,0,0,0,1,0,0
+Mage Wars Arena,7.6,90.0,13.0,3.67,0,0,1,0,0,0,0,0
+The Taverns of Tiefenthal,7.6,60.0,12.0,2.66,0,0,0,0,0,1,0,0
+Century: Spice Road,7.4,30.0,8.0,1.77,0,0,0,1,0,0,0,0
+Above and Below,7.4,90.0,13.0,2.53,0,0,0,0,0,0,1,0
+KLASK,7.7,10.0,8.0,1.05,0,0,0,1,0,0,0,0
+Nemo's War (Second Edition),8.0,60.0,13.0,3.16,0,0,0,0,0,0,1,0
+Small World,7.3,40.0,8.0,2.36,0,0,0,1,0,0,0,0
+Star Wars: Outer Rim,7.7,120.0,14.0,2.51,0,0,0,0,0,0,1,0
+Arboretum,7.4,30.0,8.0,2.16,0,0,0,1,0,0,0,0
+Dungeon Lords,7.4,90.0,12.0,3.56,0,0,0,0,0,1,0,0
+Mysterium,7.3,42.0,10.0,1.91,0,0,0,1,0,0,0,0
+Telestrations,7.4,30.0,12.0,1.08,0,0,0,0,1,0,0,0
+Bruges,7.4,60.0,10.0,2.75,0,0,0,0,0,1,0,0
+Sid Meier's Civilization: The Board Game,7.4,120.0,13.0,3.89,0,0,0,0,0,1,0,0
+Heaven & Ale,7.6,60.0,12.0,3.24,0,0,0,0,0,1,0,0
+Letters from Whitechapel,7.4,60.0,14.0,2.66,0,0,0,0,0,1,0,0
+Tikal,7.3,90.0,10.0,2.80,0,0,0,0,0,1,0,0
+Cryptid,7.5,30.0,10.0,2.21,0,0,0,1,0,0,0,0
+Tiny Epic Galaxies,7.4,30.0,14.0,2.16,0,0,0,0,0,1,0,0
+The Resistance,7.3,30.0,13.0,1.61,0,0,0,0,1,0,0,0
+Merchants & Marauders,7.4,180.0,13.0,3.24,0,0,0,0,0,0,1,0
+Dune,8.1,120.0,14.0,3.91,0,0,0,0,0,1,0,0
+Mission: Red Planet (Second Edition),7.5,45.0,14.0,2.20,0,0,0,0,0,1,0,0
+Glass Road,7.4,20.0,13.0,2.97,0,0,0,0,0,1,0,0
+Ghost Stories,7.3,60.0,12.0,2.91,0,0,0,0,0,1,0,0
+Acquire,7.3,90.0,12.0,2.50,0,0,0,0,0,1,0,0
+Dixit,7.3,30.0,8.0,1.22,0,0,0,0,1,0,0,0
+Star Wars: Armada,7.9,120.0,14.0,3.16,0,0,0,0,0,0,1,0
+Takenoko,7.3,45.0,8.0,1.98,0,0,0,1,0,0,0,0
+Neuroshima Hex! 3.0,7.4,30.0,13.0,2.61,0,0,0,0,0,1,0,0
+Agricola: All Creatures Big and Small,7.4,30.0,13.0,2.35,0,0,0,0,0,1,0,0
+Love Letter,7.2,20.0,10.0,1.19,0,0,0,1,0,0,0,0
+Here I Stand,7.9,180.0,12.0,4.17,0,0,0,0,0,0,0,1
+Calico,8.0,30.0,13.0,2.18,1,0,0,0,0,0,0,0
+Survive: Escape from Atlantis!,7.3,45.0,8.0,1.71,0,0,0,1,0,0,0,0
+Evolution: Climate,7.6,60.0,12.0,2.78,0,0,0,0,0,1,0,0
+Altiplano,7.5,60.0,12.0,3.33,0,0,0,0,0,1,0,0
+Harry Potter: Hogwarts Battle,7.5,30.0,11.0,2.08,0,0,0,0,0,1,0,0
+Die Macher,7.6,240.0,14.0,4.32,0,0,0,0,0,1,0,0
+Bärenpark,7.4,30.0,8.0,1.64,0,0,0,1,0,0,0,0
+Notre Dame,7.3,45.0,10.0,2.75,0,0,0,0,0,1,0,0
+San Juan,7.3,45.0,10.0,2.29,0,0,0,0,0,1,0,0
+51st State: Master Set,7.7,60.0,14.0,2.92,0,0,0,0,0,1,0,0
+At the Gates of Loyang,7.4,60.0,10.0,3.13,0,0,0,0,0,1,0,0
+The Pillars of the Earth,7.3,90.0,12.0,2.82,0,0,0,0,0,1,0,0
+Endeavor,7.4,90.0,12.0,2.91,0,0,0,0,0,1,0,0
+For Sale,7.2,30.0,10.0,1.26,0,0,0,1,0,0,0,0
+In the Year of the Dragon,7.3,75.0,12.0,3.10,0,0,0,0,0,1,0,0
+Bruxelles 1893,7.6,50.0,13.0,3.58,0,0,0,0,0,1,0,0
+Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures,7.8,60.0,10.0,2.16,0,0,0,0,0,0,1,0
+Blood Bowl: Team Manager – The Card Game,7.4,60.0,14.0,2.33,0,0,0,0,0,0,1,0
+Saint Petersburg,7.3,45.0,10.0,2.47,0,0,0,0,0,1,0,0
+Claustrophobia,7.5,45.0,14.0,2.48,0,0,0,0,0,0,1,0
+Bunny Kingdom,7.5,40.0,12.0,2.26,0,0,0,1,0,0,0,0
+Azul: Stained Glass of Sintra,7.4,30.0,8.0,1.99,0,0,0,1,0,0,0,0
+Clash of Cultures,7.6,180.0,14.0,3.60,0,0,0,0,0,1,0,0
+Ticket to Ride: Märklin,7.4,30.0,8.0,2.24,0,0,0,1,0,0,0,0
+Charterstone,7.4,45.0,14.0,2.82,0,0,0,0,0,1,0,0
+Mythic Battles: Pantheon,8.5,60.0,14.0,3.02,0,0,0,0,0,1,0,0
+Gùgōng,7.5,60.0,12.0,3.07,0,0,0,0,0,1,0,0
+King of Tokyo,7.2,30.0,8.0,1.49,0,0,0,1,0,0,0,0
+Arkham Horror (Third Edition),7.8,120.0,14.0,3.26,0,0,0,0,0,0,1,0
+Dune,7.6,60.0,12.0,3.44,0,0,0,0,0,1,0,0
+Tiny Towns,7.4,45.0,14.0,2.07,0,0,0,1,0,0,0,0
+Civilization,7.5,360.0,12.0,3.66,0,0,0,0,0,1,0,0
+Gizmos,7.4,40.0,14.0,2.03,0,0,0,1,0,0,0,0
+Nippon,7.7,60.0,12.0,3.79,0,0,0,0,0,1,0,0
+Space Hulk (Third Edition),7.5,60.0,12.0,2.78,0,0,0,0,0,0,1,0
+Too Many Bones: Undertow,8.8,60.0,12.0,4.03,0,0,0,0,0,1,0,0
+Sword & Sorcery,8.0,60.0,12.0,4.03,0,0,0,0,0,0,1,0
+Codenames: Pictures,7.3,15.0,10.0,1.27,0,0,0,0,1,0,0,0
+Lost Cities,7.2,30.0,10.0,1.50,0,0,0,1,0,0,0,0
+San Juan (Second Edition),7.5,45.0,10.0,2.07,0,0,0,0,0,1,0,0
+Advanced Squad Leader,8.0,120.0,14.0,4.73,0,0,0,0,0,0,0,1
+Mice and Mystics,7.3,60.0,7.0,2.71,0,0,0,0,0,0,1,0
+The Manhattan Project,7.4,120.0,13.0,2.96,0,0,0,0,0,1,0,0
+Macao,7.4,50.0,12.0,3.14,0,0,0,0,0,1,0,0
+Innovation,7.3,45.0,12.0,2.75,0,0,0,0,0,1,0,0
+Fresco,7.3,60.0,10.0,2.64,0,0,0,1,0,0,0,0
+The Godfather: Corleone's Empire,7.5,60.0,14.0,2.61,0,0,0,0,0,1,0,0
+Arkham Horror,7.3,120.0,14.0,3.58,0,0,0,0,0,0,1,0
+Maria,8.0,210.0,14.0,3.51,0,0,0,0,0,0,0,1
+Dice Forge,7.3,45.0,10.0,1.96,0,0,0,1,0,0,0,0
+Blood Bowl: Living Rulebook,7.8,120.0,12.0,3.17,0,0,0,0,0,0,1,0
+London (Second Edition),7.6,60.0,14.0,2.70,0,0,0,0,0,1,0,0
+Monikers,7.8,30.0,17.0,1.06,0,0,0,0,1,0,0,0
+Abyss,7.3,30.0,14.0,2.32,0,0,0,0,0,1,0,0
+Stockpile,7.5,45.0,13.0,2.11,0,0,0,0,0,1,0,0
+Santa Maria,7.5,45.0,12.0,3.06,0,0,0,0,0,1,0,0
+Thunderstone Quest,7.9,60.0,14.0,2.80,0,0,0,0,0,1,0,0
+Firefly: The Game,7.4,120.0,13.0,2.95,0,0,0,0,0,0,1,0
+A Few Acres of Snow,7.4,60.0,14.0,3.04,0,0,0,0,0,1,0,0
+Flash Point: Fire Rescue,7.2,45.0,10.0,2.21,0,0,0,1,0,0,0,0
+Pandemic: Fall of Rome,7.7,45.0,8.0,2.44,0,0,0,0,0,1,0,0
+Newton,7.6,90.0,14.0,3.40,0,0,0,0,0,1,0,0
+Nusfjord,7.6,20.0,12.0,2.86,0,0,0,0,0,1,0,0
+Lancaster,7.4,60.0,10.0,2.99,0,0,0,0,0,1,0,0
+Star Realms: Frontiers,8.0,20.0,12.0,1.88,0,0,0,0,0,1,0,0
+Glen More,7.3,45.0,10.0,2.67,0,0,0,0,0,1,0,0
+Millennium Blades,7.7,80.0,12.0,3.68,0,0,0,0,0,0,1,0
+Quadropolis,7.3,30.0,8.0,2.21,0,0,0,1,0,0,0,0
+Heroscape Master Set: Rise of the Valkyrie,7.4,90.0,8.0,2.29,0,0,1,0,0,0,0,0
+Risk Legacy,7.4,60.0,13.0,2.59,0,0,0,0,0,1,0,0
+Carpe Diem,7.6,45.0,10.0,2.50,0,0,0,0,0,1,0,0
+Kingsburg,7.2,90.0,13.0,2.43,0,0,0,1,0,0,0,0
+The Great Zimbabwe,7.8,90.0,14.0,3.70,0,0,0,0,0,1,0,0
+Downforce,7.4,20.0,10.0,1.75,0,0,0,1,0,0,0,0
+Chinatown,7.3,60.0,12.0,2.27,0,0,0,0,0,1,0,0
+Pandemic: The Cure,7.3,30.0,8.0,2.06,0,0,0,1,0,0,0,0
+Amerigo,7.5,90.0,10.0,2.99,0,0,0,0,0,1,0,0
+BattleLore,7.4,60.0,10.0,2.76,0,0,0,0,0,0,1,0
+Spartacus: A Game of Blood and Treachery,7.5,120.0,17.0,2.71,0,0,0,0,0,0,1,0
+Twice as Clever!,7.5,30.0,10.0,2.36,0,0,0,1,0,0,0,0
+Awkward Guests,7.7,45.0,12.0,2.36,0,0,0,1,0,0,0,0
+Biblios,7.2,30.0,10.0,1.68,0,0,0,1,0,0,0,0
+Lord of the Rings: The Confrontation,7.5,30.0,14.0,2.20,0,0,0,0,0,1,0,0
+Amun-Re,7.3,90.0,12.0,3.04,0,0,0,0,0,1,0,0
+Sheriff of Nottingham,7.1,60.0,14.0,1.65,0,0,0,1,0,0,0,0
+Skull,7.2,15.0,10.0,1.14,0,0,0,0,1,0,0,0
+BattleCON: Devastation of Indines,7.9,45.0,10.0,3.07,0,0,0,0,0,1,0,0
+1775: Rebellion,7.7,60.0,10.0,2.24,0,0,0,0,0,0,0,1
+Pandemic: Reign of Cthulhu,7.4,40.0,14.0,2.18,0,0,0,0,0,1,0,0
+Dice Throne: Season Two – Battle Chest,8.2,20.0,8.0,2.13,0,0,0,1,0,0,0,0
+Commands & Colors: Napoleonics,8.0,90.0,14.0,2.74,0,0,0,0,0,0,0,1
+Blood Bowl (Third Edition),7.5,180.0,12.0,2.98,0,0,0,0,0,1,0,0
+Descent: Journeys in the Dark,7.3,120.0,13.0,3.34,0,0,0,0,0,0,1,0
+Forbidden Desert,7.1,45.0,10.0,2.05,0,0,0,1,0,0,0,0
+Point Salad,7.3,15.0,8.0,1.15,0,0,0,1,0,0,0,0
+Mansions of Madness,7.3,120.0,13.0,3.24,0,0,0,0,0,0,1,0
+Raptor,7.3,30.0,9.0,2.06,0,0,0,1,0,0,0,0
+Shadows of Brimstone: City of the Ancients,8.0,120.0,12.0,3.34,0,0,0,0,0,0,1,0
+Camel Up (Second Edition),7.7,30.0,8.0,1.49,0,0,0,1,0,0,0,0
+Madeira,7.6,60.0,12.0,4.29,0,0,0,0,0,1,0,0
+Mystic Vale,7.3,45.0,14.0,2.25,0,0,0,0,0,1,0,0
+PitchCar,7.3,30.0,6.0,1.13,0,0,0,1,0,0,0,0
+"Labyrinth: The War on Terror, 2001 – ?",7.6,180.0,12.0,3.63,0,0,0,0,0,1,0,0
+Deus,7.3,60.0,14.0,2.85,0,0,0,0,0,1,0,0
+Ginkgopolis,7.4,45.0,13.0,2.91,0,0,0,0,0,1,0,0
+Colt Express,7.1,30.0,10.0,1.82,0,0,0,1,0,0,0,0
+Schotten Totten,7.3,20.0,8.0,1.74,0,0,0,1,0,0,0,0
+London,7.4,90.0,13.0,2.88,0,0,0,0,0,1,0,0
+Archipelago,7.3,30.0,14.0,3.73,0,0,0,0,0,1,0,0
+Catan,7.2,60.0,10.0,2.32,0,0,0,1,0,0,0,0
+Hanabi,7.1,25.0,8.0,1.70,0,0,0,1,0,0,0,0
+Legends of Andor,7.2,60.0,10.0,2.76,0,0,0,0,0,0,1,0
+First Class: All Aboard the Orient Express!,7.5,40.0,10.0,2.78,0,0,0,0,0,1,0,0
+Imperial Settlers: Empires of the North,7.6,45.0,10.0,2.78,0,0,0,0,0,1,0,0
+Freedom: The Underground Railroad,7.6,60.0,13.0,2.91,0,0,0,0,0,1,0,0
+Sentinels of the Multiverse,7.2,30.0,8.0,2.50,0,0,0,0,0,0,1,0
+Aeon's End: The New Age,8.7,60.0,14.0,2.91,0,0,0,0,0,1,0,0
+Small World Underground,7.3,30.0,8.0,2.59,0,0,0,0,0,1,0,0
+Citadels,7.1,20.0,10.0,2.05,0,0,0,1,0,0,0,0
+Shadows over Camelot,7.1,60.0,10.0,2.57,0,0,0,0,0,0,1,0
+The Grizzled,7.2,30.0,14.0,1.94,0,0,0,0,0,0,1,0
+Roads & Boats,7.7,240.0,14.0,4.18,0,0,0,0,0,1,0,0
+Euphoria: Build a Better Dystopia,7.3,60.0,13.0,3.11,0,0,0,0,0,1,0,0
+Lords of Vegas,7.3,60.0,12.0,2.36,0,0,0,0,0,1,0,0
+Friday,7.1,25.0,13.0,2.14,0,0,0,0,0,1,0,0
+One Night Ultimate Werewolf,7.1,10.0,8.0,1.39,0,0,0,0,1,0,0,0
+Imhotep,7.2,40.0,10.0,2.01,0,0,0,1,0,0,0,0
+Egizia,7.4,90.0,12.0,2.83,0,0,0,0,0,1,0,0
+Dwellings of Eldervale,8.5,60.0,14.0,3.19,0,0,0,0,0,1,0,0
+Junk Art,7.4,30.0,8.0,1.22,0,0,0,1,0,0,0,0
+Time's Up! Title Recall!,7.7,60.0,12.0,1.19,0,0,0,0,1,0,0,0
+Betrayal Legacy,7.8,45.0,12.0,2.82,0,0,0,0,0,0,1,0
+Obsession,8.3,30.0,14.0,3.18,0,0,0,0,0,1,0,0
+The Fox in the Forest,7.2,30.0,10.0,1.59,0,0,0,1,0,0,0,0
+Stuffed Fables,7.6,60.0,7.0,2.40,0,0,0,0,0,0,1,0
+Tekhenu: Obelisk of the Sun,8.0,60.0,14.0,4.01,0,0,0,0,0,1,0,0
+Airlines Europe,7.3,75.0,10.0,2.44,0,0,0,1,0,0,0,0
+Fantasy Realms,7.5,20.0,14.0,1.73,0,0,0,1,0,0,0,0
+Libertalia,7.2,40.0,14.0,2.24,0,0,0,0,0,1,0,0
+Pipeline,7.7,60.0,12.0,3.86,0,0,0,0,0,1,0,0
+Thurn and Taxis,7.1,60.0,10.0,2.26,0,0,0,1,0,0,0,0
+Vinhos,7.5,60.0,12.0,4.21,0,0,0,0,0,1,0,0
+Elysium,7.2,60.0,14.0,2.76,0,0,0,0,0,1,0,0
+Ingenious,7.1,45.0,10.0,1.92,1,0,0,0,0,0,0,0
+TZAAR,7.7,30.0,13.0,2.54,1,0,0,0,0,0,0,0
+"Unmatched: Battle of Legends, Volume One",8.0,20.0,9.0,1.87,0,0,0,0,0,1,0,0
+Chess,7.1,60.0,6.0,3.70,1,0,0,0,0,0,0,0
+The Colonists,7.6,30.0,12.0,4.09,0,0,0,0,0,1,0,0
+Exit: The Game – Dead Man on the Orient Express,7.7,45.0,12.0,2.74,0,0,0,1,0,0,0,0
+Queendomino,7.3,25.0,8.0,2.09,0,0,0,1,0,0,0,0
+Vikings,7.2,60.0,10.0,2.54,0,0,0,0,0,1,0,0
+Photosynthesis,7.1,30.0,10.0,2.29,1,0,0,0,0,0,0,0
+KeyForge: Call of the Archons,7.3,15.0,14.0,2.45,0,0,1,0,0,0,0,0
+Tales of the Arabian Nights,7.2,120.0,12.0,2.16,0,0,0,0,0,0,1,0
+Potion Explosion,7.2,30.0,8.0,1.75,0,0,0,1,0,0,0,0
+Praga Caput Regni,8.3,30.0,12.0,3.68,0,0,0,0,0,1,0,0
+Argent: The Consortium,7.7,60.0,10.0,3.80,0,0,0,0,0,1,0,0
+Escape Plan,7.6,60.0,12.0,3.67,0,0,0,0,0,1,0,0
+RoboRally,7.1,45.0,12.0,2.43,0,0,0,0,0,1,0,0
+Pathfinder Adventure Card Game: Rise of the Runelords – Base Set,7.2,90.0,13.0,2.71,0,0,0,0,0,0,1,0
+Sushi Go!,7.1,15.0,8.0,1.17,0,0,0,1,0,0,0,0
+Last Will,7.2,45.0,14.0,2.71,0,0,0,0,0,1,0,0
+Taj Mahal,7.3,75.0,12.0,2.99,0,0,0,0,0,1,0,0
+Black Orchestra,7.5,90.0,14.0,2.41,0,0,0,0,0,0,1,0
+Runebound (Third Edition),7.5,120.0,14.0,2.66,0,0,0,0,0,0,1,0
+Forgotten Waters,8.2,120.0,14.0,2.09,0,0,0,0,0,0,1,0
+No Thanks!,7.1,20.0,8.0,1.14,0,0,0,1,0,0,0,0
+Bohnanza,7.0,45.0,13.0,1.67,0,0,0,1,0,0,0,0
+StarCraft: The Board Game,7.3,180.0,12.0,3.84,0,0,0,0,0,1,0,0
+Star Wars: X-Wing Miniatures Game – The Force Awakens Core Set,7.8,30.0,14.0,2.83,0,0,1,0,0,0,0,0
+Hammer of the Scots,7.6,120.0,12.0,2.98,0,0,0,0,0,0,0,1
+Citadels,7.3,30.0,10.0,2.01,0,0,0,1,0,0,0,0
+Colosseum,7.2,60.0,10.0,2.75,0,0,0,1,0,0,0,0
+Chicago Express,7.2,60.0,12.0,2.78,0,0,0,0,0,1,0,0
+Port Royal,7.1,20.0,8.0,1.63,0,0,0,1,0,0,0,0
+1846: The Race for the Midwest,7.9,240.0,14.0,4.00,0,0,0,0,0,1,0,0
+Karuba,7.2,30.0,8.0,1.46,0,0,0,1,0,0,0,0
+Nexus Ops,7.2,90.0,12.0,2.23,0,0,0,0,0,0,1,0
+Paperback,7.2,45.0,8.0,1.99,0,0,0,1,0,0,0,0
+Conan,7.7,90.0,14.0,2.76,0,0,0,0,0,0,1,0
+Discworld: Ankh-Morpork,7.2,60.0,11.0,2.21,0,0,0,0,0,0,1,0
+Evolution,7.1,60.0,12.0,2.43,0,0,0,0,0,1,0,0
+Automobile,7.3,120.0,12.0,3.52,0,0,0,0,0,1,0,0
+Alhambra,7.0,45.0,8.0,2.10,0,0,0,1,0,0,0,0
+Pax Porfiriana,7.7,120.0,12.0,3.57,0,0,0,0,0,1,0,0
+A Game of Thrones,7.2,180.0,12.0,3.45,0,0,0,0,0,1,0,0
+AquaSphere,7.3,100.0,12.0,3.68,0,0,0,0,0,1,0,0
+Blood Bowl (2016 Edition),8.1,45.0,12.0,3.52,0,0,0,0,0,0,1,0
+Baseball Highlights: 2045,7.5,45.0,9.0,2.21,0,0,0,0,0,1,0,0
+Sprawlopolis,7.5,15.0,8.0,1.83,0,0,0,1,0,0,0,0
+Francis Drake,7.4,90.0,14.0,2.93,0,0,0,0,0,1,0,0
+Wavelength,7.5,30.0,14.0,1.09,0,0,0,0,1,0,0,0
+DVONN,7.4,30.0,9.0,2.67,1,0,0,0,0,0,0,0
+Star Wars: Destiny,7.5,30.0,10.0,2.28,0,0,1,0,0,0,0,0
+Blackout: Hong Kong,7.5,75.0,14.0,3.47,0,0,0,0,0,1,0,0
+Carson City,7.2,90.0,12.0,3.18,0,0,0,0,0,1,0,0
+Camel Up,7.0,20.0,8.0,1.48,0,0,0,1,0,0,0,0
+Railroad Ink: Deep Blue Edition,7.3,20.0,8.0,1.51,0,0,0,1,0,0,0,0
+A Game of Thrones: The Card Game (Second Edition),7.6,60.0,14.0,3.53,0,0,1,0,0,0,0,0
+Love Letter Premium,7.5,20.0,8.0,1.31,0,0,0,1,0,0,0,0
+Earth Reborn,7.7,180.0,13.0,3.89,0,0,0,0,0,0,1,0
+Zombicide,7.2,60.0,14.0,2.54,0,0,0,0,0,0,1,0
+Gears of War: The Board Game,7.5,60.0,14.0,2.89,0,0,0,0,0,0,1,0
+Broom Service,7.2,30.0,10.0,2.40,0,0,0,1,0,0,0,0
+Struggle of Empires,7.5,180.0,13.0,3.60,0,0,0,0,0,1,0,0
+Hadara,7.5,45.0,10.0,2.19,0,0,0,0,0,1,0,0
+Space Empires: 4X,7.7,180.0,12.0,3.35,0,0,0,0,0,0,0,1
+Tobago,7.1,60.0,10.0,2.13,0,0,0,1,0,0,0,0
+Snowdonia,7.4,30.0,10.0,3.00,0,0,0,0,0,1,0,0
+Quantum,7.3,60.0,13.0,2.45,0,0,0,0,0,1,0,0
+Carcassonne: Hunters and Gatherers,7.1,35.0,8.0,1.92,0,0,0,1,0,0,0,0
+Jamaica,7.1,30.0,8.0,1.65,0,0,0,1,0,0,0,0
+The Republic of Rome,7.5,300.0,14.0,4.34,0,0,0,0,0,1,0,0
+They Shall Not Pass: The Battle of Verdun 1916,6.6,90.0,12.0,2.61,0,0,0,0,0,0,0,1
+Patton in Flames,7.0,120.0,12.0,4.91,0,0,0,0,0,0,0,1
+Zoff im Hühnerhof,6.5,20.0,4.0,1.10,0,1,0,0,0,0,0,0
+"Iwo Jima: Valor of Arms, 19 Feb. – 25 March 1945",6.7,240.0,12.0,2.82,0,0,0,0,0,0,0,1
+South Mountain,6.9,360.0,12.0,3.07,0,0,0,0,0,0,0,1
+Corruption,5.8,45.0,10.0,1.82,0,0,0,1,0,0,0,0
+Web and Starship,6.4,120.0,12.0,3.53,0,0,0,0,0,0,0,1
+"Congo Merc: The Congo, 1964",6.3,30.0,12.0,1.85,0,0,0,0,0,0,0,1
+A las Barricadas! (2nd Edition),7.3,120.0,12.0,3.00,0,0,0,0,0,0,0,1
+Thunder's Edge,6.2,180.0,12.0,3.13,0,0,0,0,0,0,0,1
+Shogun Triumphant,6.5,180.0,12.0,2.89,0,0,0,0,0,0,0,1
+MedFront: War in North Africa 1940-43,6.3,180.0,12.0,3.16,0,0,0,0,0,0,0,1
+Deus Ex Machina,6.7,30.0,10.0,1.85,0,0,0,1,0,0,0,0
+A las Barricadas!,7.1,120.0,12.0,2.73,0,0,0,0,0,0,0,1
+Nika,6.5,30.0,8.0,2.20,1,0,0,0,0,0,0,0
+Family Fluxx,5.7,2.0,6.0,1.23,0,0,0,1,0,0,0,0
+Tante Tarantel,6.2,30.0,10.0,1.21,0,1,0,0,0,0,0,0
+The Mediterranean,7.0,480.0,12.0,3.31,0,0,0,0,0,0,0,1
+Castle Merchants,5.8,45.0,10.0,1.92,0,0,0,1,0,0,0,0
+Heart of Oak: Naval Miniatures Rules for the Age of Fighting Sail,7.4,90.0,12.0,3.67,0,0,0,0,0,0,0,1
+Atlantic Chase,8.3,30.0,14.0,3.40,0,0,0,0,0,0,0,1
+Victory in Vietnam,7.5,180.0,12.0,3.13,0,0,0,0,0,0,0,1
+Cubulus,6.1,20.0,8.0,2.08,1,0,0,0,0,0,0,0
+Expedition Altiplano,6.1,30.0,10.0,1.94,0,0,0,0,0,1,0,0
+Arvuutin,6.8,30.0,8.0,1.67,0,0,0,1,0,0,0,0
+Merchants of the Dark Road,8.1,60.0,12.0,2.92,0,0,0,0,0,1,0,0
+Spy Alley,5.7,45.0,8.0,1.52,0,0,0,1,0,0,0,0
+Splut!,6.7,20.0,7.0,2.47,1,0,0,0,0,0,0,0
+When Lions Sailed,7.1,240.0,10.0,2.78,0,0,0,0,0,0,0,1
+Battlefields of Olympus,6.2,30.0,10.0,1.95,0,0,0,0,0,1,0,0
+Grand National Derby,6.4,30.0,10.0,1.71,0,0,0,0,0,1,0,0
+Battleground Fantasy Warfare: Men of Hawkshold,6.9,60.0,12.0,2.67,0,0,0,0,0,0,0,1
+Cairo Corridor,7.3,20.0,10.0,2.00,1,0,0,0,0,0,0,0
+Constructo,6.9,15.0,8.0,1.40,1,0,0,0,0,0,0,0
+Napoleon at the Berezina,6.7,300.0,12.0,3.18,0,0,0,0,0,0,0,1
+"Eylau: Napoleon's Winter Battle, 1807",6.7,180.0,12.0,2.83,0,0,0,0,0,0,0,1
+Diceland: Ogre,6.5,10.0,10.0,2.17,0,0,0,0,0,0,1,0
+Rostov '41: Race to the Don,7.8,120.0,12.0,2.50,0,0,0,0,0,0,0,1
+Star Smuggler,6.4,180.0,12.0,2.83,0,0,0,0,0,0,1,0
+"Across Suez: The Battle of the Chinese Farm October 15, 1973",6.1,120.0,12.0,1.96,0,0,0,0,0,0,0,1
+Uncle Chestnut's Table Gype,6.3,30.0,8.0,2.00,1,0,0,0,0,0,0,0
+Kadesh:  Mobile Warfare in the Ancient Middle East,6.5,120.0,12.0,3.08,0,0,0,0,0,0,0,1
+Strike Them a Blow: 1864 North Anna River,7.5,600.0,12.0,3.30,0,0,0,0,0,0,0,1
+Brief Border Wars,7.6,60.0,12.0,2.70,0,0,0,0,0,0,0,1
+Next War: Vietnam,8.6,120.0,14.0,4.00,0,0,0,0,0,0,0,1
+Diam,6.1,10.0,8.0,2.18,1,0,0,0,0,0,0,0
+"Inferno sugli Altipiani, 1916",7.8,180.0,12.0,3.25,0,0,0,0,0,0,0,1
+Battlefront: WWII,7.3,180.0,12.0,3.63,0,0,0,0,0,0,0,1
+Le Vol de l'Aigle,7.6,600.0,12.0,2.92,0,0,0,0,0,0,0,1
+Darkest December: Battle of the Bulge 1944,7.5,180.0,12.0,3.78,0,0,0,0,0,0,0,1
+Galactic Strike Force,5.7,60.0,13.0,3.31,0,0,0,0,0,0,1,0
+The Legend of Landlock,5.8,20.0,8.0,1.24,1,0,0,0,0,0,0,0
+Amphipolis,6.2,30.0,10.0,1.80,0,0,0,1,0,0,0,0
+Dragon Noir 2: L'Epreuve,7.2,120.0,12.0,2.67,0,0,0,0,0,0,0,1
+The Walking Dead: The Board Game,5.7,30.0,13.0,2.03,0,0,0,0,0,0,1,0
+Carnival,5.7,30.0,13.0,1.52,0,0,0,1,0,0,0,0
+Attangle,7.0,45.0,8.0,2.80,1,0,0,0,0,0,0,0
+Jasper and Zot,6.1,30.0,7.0,1.53,0,0,0,1,0,0,0,0
+Command Decision,6.5,360.0,12.0,3.55,0,0,0,0,0,0,0,1
+Rok 1920,7.6,120.0,12.0,3.73,0,0,0,0,0,0,0,1
+Carla Cat,5.7,15.0,5.0,1.02,0,1,0,0,0,0,0,0
+Killer,6.2,360.0,12.0,2.07,0,0,0,0,1,0,0,0
+Bonbons,6.0,10.0,7.0,1.14,0,1,0,0,0,0,0,0
+Cornucopia,5.8,45.0,8.0,1.44,0,0,0,1,0,0,0,0
+Clash of Empires: The Battle for France 1914,6.8,120.0,12.0,2.50,0,0,0,0,0,0,0,1
+The Da Vinci Code Board Game: The Quest for the Truth,5.1,120.0,12.0,2.06,0,0,0,1,0,0,0,0
+ZombieTown,5.3,60.0,12.0,2.17,0,0,0,0,0,0,1,0
+Mix-max,4.7,20.0,5.0,1.00,0,1,0,0,0,0,0,0
+SPANC: Space Pirate Amazon Ninja Catgirls,5.3,60.0,14.0,1.31,0,0,0,0,0,0,1,0
+The Yeti Slalom,4.9,30.0,8.0,1.33,0,1,0,0,0,0,0,0
+Hyborian Gates,3.8,90.0,12.0,3.00,0,0,1,0,0,0,0,0
+Trivial Pursuit: Millennium Edition,5.3,60.0,15.0,1.54,0,0,0,1,0,0,0,0
+Tactics II,5.4,120.0,12.0,2.05,0,0,0,0,0,0,0,1
+Fairytale Games: The Battle Royale,3.9,30.0,13.0,3.60,0,0,0,0,0,0,1,0
+Star Wars: Jedi Knights CCG,4.7,20.0,12.0,2.00,0,0,1,0,0,0,0,0
+SuDoku: Das Brettspiel,4.6,45.0,6.0,1.26,1,0,0,0,0,0,0,0
+Monopoly: French,4.4,90.0,8.0,2.00,0,1,0,0,0,0,0,0
+Jumpin' Monkeys,5.1,20.0,5.0,1.08,0,1,0,0,0,0,0,0
+Amber,5.1,30.0,10.0,1.70,0,0,0,1,0,0,0,0
+The Allowance Game,4.0,30.0,6.0,1.00,0,1,0,0,0,0,0,0
+Kill the Hippies,4.8,20.0,18.0,1.23,0,0,0,0,1,0,0,0
+Flinch,5.2,20.0,7.0,1.14,0,0,0,1,0,0,0,0
+Cat & Mouse,4.8,20.0,4.0,1.07,0,1,0,0,0,0,0,0
+Dixie: The Second War Between the States,4.6,60.0,12.0,2.39,0,0,0,0,0,0,0,1
+The Very Hungry Caterpillar Card Game,3.7,10.0,3.0,1.00,0,1,0,0,0,0,0,0
+Clue Jr.: The Case of the Hidden Toys,4.5,30.0,5.0,1.20,0,1,0,0,0,0,0,0
+Hotel Tycoon,5.5,60.0,8.0,1.42,0,0,0,1,0,0,0,0
+Chez Dork,5.3,30.0,12.0,1.31,0,0,0,0,1,0,0,0
+Hot Potato,4.4,10.0,4.0,1.00,0,1,0,0,0,0,0,0
+The Game of Life: A Jedi's Path,5.3,60.0,9.0,1.37,0,1,0,0,0,0,0,0
+Choco,4.5,25.0,3.0,1.00,0,1,0,0,0,0,0,0
+Iceberg Seals,5.3,20.0,5.0,1.06,0,1,0,0,0,0,0,0
+Armada,5.2,120.0,10.0,2.20,0,0,0,1,0,0,0,0
+Key to the Kingdom,5.5,45.0,8.0,1.59,0,1,0,0,0,0,0,0
+Gundam Zeta A.E.U.G.,6.0,360.0,12.0,3.00,0,0,0,0,0,0,0,1
+Muggins!,5.7,30.0,10.0,3.50,1,0,0,0,0,0,0,0
+Tokugawa Ieyasu,6.0,360.0,12.0,2.00,0,0,0,0,0,0,0,1
+Genpei War: Rise and Fall,4.8,30.0,10.0,1.00,0,0,0,0,0,0,0,1
+Angelina Ballerina's Dancing Game,4.8,15.0,3.0,0.00,0,1,0,0,0,0,0,0
+Angelina's Dress-Up Card Game,3.0,10.0,3.0,1.00,0,1,0,0,0,0,0,0
+Maisy Game,4.8,10.0,3.0,1.00,0,1,0,0,0,0,0,0
+"1, 2, 3 Treasures in the Sea",6.5,10.0,3.0,0.00,0,1,0,0,0,0,0,0
+Gunfight at OK Corral,7.3,5.0,8.0,0.00,0,1,0,0,0,0,0,0
+Legend of the Galactic Heroes,6.6,360.0,12.0,2.00,0,0,0,0,0,0,0,1
+The Highest Ground,0.0,60.0,12.0,0.00,0,0,0,0,0,0,0,1
+Midway,5.5,360.0,12.0,2.00,0,0,0,0,0,0,0,1
++ 0,6.4,180.0,12.0,2.00,0,0,0,0,0,0,0,1
+Hunny Pot  Picnic,3.8,10.0,3.0,1.00,0,1,0,0,0,0,0,0
+Threading Caterpillar,7.5,15.0,4.0,0.00,0,1,0,0,0,0,0,0
+Capharnaüm,5.4,30.0,8.0,2.00,1,0,0,0,0,0,0,0
+Bonnie Blue,7.2,30.0,12.0,1.50,0,0,0,0,0,0,0,1
+Blazing Jets,6.9,10.0,12.0,0.00,1,0,0,0,0,0,0,0
+Ship of the Line,7.5,60.0,12.0,0.00,0,0,0,0,0,0,0,1
+Zauberlehrling,5.2,10.0,4.0,1.00,0,1,0,0,0,0,0,0
+Clash of the War Galleys,0.0,120.0,12.0,0.00,0,0,0,0,0,0,0,1
+Rangers!,6.0,60.0,12.0,4.00,0,0,0,0,0,0,0,1
+Jungle,4.5,5.0,8.0,1.00,1,0,0,0,0,0,0,0
+Combat Commander 1973-1983,6.1,240.0,12.0,4.25,0,0,0,0,0,0,0,1
+StarMarines,1.0,30.0,12.0,0.00,0,0,0,0,0,0,0,1
+Hack & Sack New Jersey,0.0,30.0,12.0,0.00,0,0,0,0,0,0,0,1
++ 0,6.7,60.0,12.0,2.00,0,0,0,0,0,0,0,1
+Dogfaces in Space,6.0,30.0,12.0,3.00,0,0,0,0,0,0,0,1
++ 0,6.3,30.0,8.0,1.00,0,1,0,0,0,0,0,0
+Risky Mgax,0.0,30.0,6.0,0.00,0,0,1,0,0,0,0,0
++ 0,0.0,60.0,12.0,0.00,0,0,0,0,0,0,0,1
+EasyStar,5.0,30.0,12.0,3.00,0,0,0,0,0,0,0,1
+Gunfir(E),0.0,30.0,12.0,0.00,0,0,0,0,0,0,0,1
+EasyShips,7.3,30.0,12.0,2.67,0,0,0,0,0,0,0,1
+Samurai Wargame Rules,5.0,60.0,12.0,0.00,0,0,0,0,0,0,0,1
+Montcalm & Wolfe,6.4,240.0,12.0,3.33,0,0,0,0,0,0,0,1
+Challenger 2000: Ultra Modern Wargame Rules for Battle Group Level Games 1970 to 1995,6.4,240.0,12.0,4.00,0,0,0,0,0,0,0,1
++ 0,7.4,120.0,12.0,3.26,0,0,0,0,0,1,0,0
+"War in the West: WWII in Western Europe, 1939-1945",6.9,360.0,14.0,3.50,0,0,0,0,0,0,0,1
+Fall of Constantinople,6.1,30.0,12.0,0.00,0,0,0,0,0,0,0,1
+Unispel,0.0,60.0,10.0,0.00,1,0,0,0,0,0,0,0
+Eiyu Sengoku Jidai,5.0,360.0,12.0,1.00,0,0,0,0,0,0,0,1
+Sekigahara fierce fight,7.5,120.0,14.0,3.00,0,0,0,0,0,0,0,1
+Guess How Much I Love You Game,2.3,30.0,3.0,0.00,0,1,0,0,0,0,0,0
+London Rules Wargames Section American Civil War 1863c,0.0,180.0,12.0,0.00,0,0,0,0,0,0,0,1
+Robots! The Game,3.8,30.0,5.0,0.00,0,1,0,0,0,0,0,0
+Hell by Starlight,6.0,120.0,12.0,0.00,0,0,0,0,0,0,0,1
+Ironclads and Ether Flyers,7.3,120.0,12.0,3.00,0,0,0,0,0,0,0,1
++ 0,6.5,90.0,12.0,2.50,0,0,0,0,0,0,0,1
++ 0,6.0,360.0,12.0,3.00,0,0,0,0,0,0,0,1
+Semper Fi! Uncommon Valor ATS Upgrade,7.3,120.0,12.0,3.33,0,0,0,0,0,0,0,1
+ATS Blood & Iron,7.7,120.0,12.0,2.67,0,0,0,0,0,0,0,1
+Micro Fleet: World War 2,5.7,240.0,12.0,2.00,0,0,0,0,0,0,0,1
+Micro Sci-Fi,6.4,240.0,12.0,0.00,0,0,0,0,0,0,0,1
+Connexxions,0.0,30.0,13.0,0.00,1,0,0,0,0,0,0,0
+Aeon's End: War Eternal,8.4,60.0,14.0,2.92,0,0,0,0,0,1,0,0
+Captain Sonar,7.6,45.0,14.0,2.15,0,0,0,0,1,0,0,0
+Cosmic Encounter,7.5,60.0,12.0,2.57,0,0,0,0,0,1,0,0
+Marvel Champions: The Card Game,8.2,45.0,14.0,2.81,0,0,1,0,0,0,0,0
+Architects of the West Kingdom,7.8,60.0,12.0,2.78,0,0,0,0,0,1,0,0
+Flying Hats,4.7,10.0,4.0,1.0,0,1,0,0,0,0,0,0
+Maracaibo,8.3,30.0,12.0,3.88,0,0,0,0,0,1,0,0
+Pandemic Legacy: Season 1,8.6,60.0,13.0,2.84,0,0,0,0,0,1,0,0
+Pandemic Legacy: Season 2,8.1,60.0,14.0,3.25,0,0,0,0,0,0,1,0
+Chronicles of Crime,7.8,60.0,14.0,2.1,0,0,0,0,0,0,1,0
+Descent: Journeys in the Dark (Second Edition),7.7,120.0,14.0,3.2,0,0,0,0,0,0,1,0
+Galaxy Trucker,7.4,60.0,10.0,2.33,0,0,0,0,0,0,1,0
+Just One,7.6,20.0,8.0,1.06,0,0,0,0,1,0,0,0
+Shogun,7.5,90.0,12.0,3.37,0,0,0,0,0,1,0,0
+Codenames,7.6,15.0,14.0,1.29,0,0,0,0,1,0,0,0
+The Isle of Cats,8.0,60.0,8.0,2.33,0,0,0,1,0,0,0,0
+Too Many Bones,8.4,60.0,12.0,3.85,0,0,0,0,0,1,0,0
+It's a Wonderful World,7.9,30.0,14.0,2.28,0,0,0,0,0,1,0,0
+Memoir '44,7.6,30.0,8.0,2.27,0,0,0,0,0,0,0,1
+Star Wars: Imperial Assault,8.0,60.0,14.0,3.31,0,0,0,0,0,0,1,0
+We Were Brothers,7.6,120.0,15.0,3.36,0,0,0,0,0,0,0,1
+Le Havre,7.9,30.0,12.0,3.74,0,0,0,0,0,1,0,0
+Caverna: The Cave Farmers,8.0,30.0,12.0,3.79,0,0,0,0,0,1,0,0
+7,5.0,120.0,15.0,3.11,0,0,0,0,0,0,1,0
+Tigris & Euphrates,7.7,90.0,12.0,3.51,0,0,0,0,0,1,0,0
+Detective: A Modern Crime Board Game,7.9,120.0,16.0,2.72,0,0,0,0,0,0,1,0
+Flink,8.0,20.0,10.0,2.0,1,0,0,0,0,0,0,0
+Food Chain Magnate,8.1,120.0,14.0,4.2,0,0,0,0,0,1,0,0
+Teotihuacan: City of Gods,8.0,90.0,14.0,3.77,0,0,0,0,0,1,0,0
+Nemesis,8.4,90.0,12.0,3.34,0,0,0,0,0,0,1,0
+Yokohama,7.9,90.0,14.0,3.28,0,0,0,0,0,1,0,0
+Rising Sun,7.9,90.0,14.0,3.27,0,0,0,0,0,1,0,0
+Trickerion: Legends of Illusion,7.9,60.0,14.0,4.21,0,0,0,0,0,1,0,0
+Power Grid,7.9,120.0,12.0,3.27,0,0,0,0,0,1,0,0
+An Attrition of Souls,7.8,30.0,14.0,2.5,0,0,0,0,0,0,0,1
+Village,7.5,60.0,12.0,3.07,0,0,0,0,0,1,0,0
+Endeavor: Age of Sail,8.0,60.0,13.0,2.8,0,0,0,0,0,1,0,0
+Champions of Midgard,7.8,60.0,10.0,2.59,0,0,0,0,0,1,0,0
+Zingo!,5.3,5.0,4.0,1.03,0,1,0,0,0,0,0,0
+Clank! Legacy: Acquisitions Incorporated,8.8,90.0,13.0,2.68,0,0,0,0,0,0,1,0
+The Crew: The Quest for Planet Nine,8.0,20.0,10.0,2.0,0,0,0,1,0,0,0,0
+Raiders of the North Sea,7.8,60.0,12.0,2.53,0,0,0,0,0,1,0,0
+I Am Vlad: Prince of Wallachia,4.7,120.0,13.0,2.92,0,0,0,0,0,0,1,0
+Underwater Cities,8.1,80.0,12.0,3.6,0,0,0,0,0,1,0,0
+Res Arcana,7.8,20.0,12.0,2.58,0,0,0,0,0,1,0,0
+Targi,7.6,60.0,12.0,2.36,0,0,0,0,0,1,0,0
+Codenames: Duet,7.6,15.0,11.0,1.34,0,0,0,1,0,0,0,0
+Magic: The Gathering,7.5,20.0,13.0,3.22,0,0,1,0,0,0,0,0
+Carcassonne,7.4,30.0,7.0,1.91,0,0,0,1,0,0,0,0
+Terraforming Mars,8.4,120.0,12.0,3.24,0,0,0,0,0,1,0,0
+Gloomhaven,8.8,60.0,14.0,3.86,0,0,0,0,0,1,0,0
+Istanbul,7.6,40.0,10.0,2.58,0,0,0,0,0,1,0,0
+Mechs vs. Minions,8.0,60.0,14.0,2.42,0,0,0,0,0,1,0,0
+Frantic Frankfurt,5.0,10.0,8.0,1.22,0,0,0,1,0,0,0,0
+Taiheiki,8.2,120.0,12.0,1.8,0,0,0,0,0,0,0,1
+Autokrator,6.3,90.0,12.0,2.46,0,0,0,0,0,1,0,0
+Hydra!: The Ultimate Starcruiser?,0.0,60.0,12.0,3.0,0,0,0,0,0,0,0,1
+Xia: Legends of a Drift System,7.9,60.0,12.0,3.17,0,0,0,0,0,1,0,0
+Puerto Rico,8.0,90.0,12.0,3.28,0,0,0,0,0,1,0,0
+The Castles of Burgundy,8.1,30.0,12.0,3.0,0,0,0,0,0,1,0,0
+Legendary Encounters: An Alien Deck Building Game,7.8,30.0,17.0,2.71,0,0,0,0,0,0,1,0
+Arcadia Quest,7.7,60.0,13.0,2.53,0,0,0,0,0,0,1,0
+La Granja,7.7,90.0,12.0,3.59,0,0,0,0,0,1,0,0
+Eclipse,7.9,60.0,14.0,3.7,0,0,0,0,0,1,0,0
+Paths of Glory,8.1,480.0,14.0,3.84,0,0,0,0,0,0,0,1
++ 0,8.0,30.0,12.0,4.0,0,0,0,0,0,0,0,1
+Crokinole,7.9,30.0,8.0,1.26,0,0,0,1,0,0,0,0
+Santorini,7.5,20.0,8.0,1.73,1,0,0,0,0,0,0,0
+Go,7.6,30.0,8.0,4.0,1,0,0,0,0,0,0,0
+Days of Decision,6.3,360.0,12.0,3.79,0,0,0,0,0,0,0,1
+Vinhos Deluxe Edition,8.2,60.0,14.0,4.05,0,0,0,0,0,1,0,0
+Spirit Island,8.4,90.0,13.0,4.01,0,0,0,0,0,1,0,0
+Star Wars: Rebellion,8.4,180.0,14.0,3.71,0,0,0,0,0,0,1,0
+Trajan,7.8,60.0,12.0,3.65,0,0,0,0,0,1,0,0
+Crossfire,5.3,10.0,7.0,1.13,0,1,0,0,0,0,0,0
+Clocktowers,5.7,20.0,8.0,1.39,0,0,0,1,0,0,0,0
+Suburbia,7.5,60.0,8.0,2.77,0,0,0,0,0,1,0,0
+Century: Golem Edition,7.7,30.0,8.0,1.66,0,0,0,1,0,0,0,0
+Terra Mystica,8.1,60.0,12.0,3.96,0,0,0,0,0,1,0,0
+Azul: Summer Pavilion,7.8,30.0,8.0,2.04,1,0,0,0,0,0,0,0
+YINSH,7.7,30.0,9.0,2.7,1,0,0,0,0,0,0,0
+The Resistance: Avalon,7.6,30.0,13.0,1.77,0,0,0,0,1,0,0,0
+Great Western Trail,8.3,75.0,12.0,3.71,0,0,0,0,0,1,0,0
+7 Wonders Duel,8.1,30.0,10.0,2.22,0,0,0,0,0,1,0,0
+Great War at Sea: U.S. Navy Plan Black,6.7,120.0,12.0,2.4,0,0,0,0,0,0,0,1
+Armada: The War With Spain 1585-1604,5.0,480.0,12.0,3.0,0,0,0,0,0,0,0,1
+That's Pretty Clever!,7.6,30.0,8.0,1.89,0,0,0,1,0,0,0,0
+Mr. Bucket,3.5,10.0,4.0,1.0,0,1,0,0,0,0,0,0
+Mythfire,5.0,30.0,9.0,3.0,0,0,0,0,0,0,0,1
+Yom Kippur,7.0,120.0,12.0,3.4,0,0,0,0,0,0,0,1
+Trivial Pursuit: Junior,4.9,60.0,8.0,1.2,0,1,0,0,0,0,0,0
+Viticulture,7.6,90.0,13.0,2.93,0,0,0,0,0,1,0,0
+Power,6.0,30.0,10.0,2.63,1,0,0,0,0,0,0,0
+Star Realms: Colony Wars,7.9,20.0,12.0,1.9,0,0,0,0,0,1,0,0
+Legendary: A Marvel Deck Building Game,7.6,30.0,14.0,2.44,0,0,0,0,0,0,1,0
+Nations,7.6,40.0,14.0,3.54,0,0,0,0,0,1,0,0
+Malefiz,5.4,60.0,8.0,1.2,0,0,0,1,0,0,0,0
+Brass: Lancashire,8.2,60.0,14.0,3.86,0,0,0,0,0,1,0,0
+Five Little Monkeys Jumping on the Bed,4.2,10.0,3.0,1.38,0,1,0,0,0,0,0,0
+Tichu,7.6,60.0,10.0,2.34,0,0,0,0,0,1,0,0
+Mansions of Madness: Second Edition,8.1,120.0,14.0,2.68,0,0,0,0,0,0,1,0
+Tank on Tank: West Front,7.3,20.0,10.0,1.71,0,0,0,0,0,0,0,1
+"Win, Lose, or Banana",5.4,1.0,4.0,1.07,0,0,0,0,1,0,0,0
+The Voyages of Marco Polo,7.9,40.0,12.0,3.18,0,0,0,0,0,1,0,0
+Napoleon at Chattanooga,5.9,120.0,12.0,0.0,0,0,0,0,0,0,0,1
+Simply Ingenious,5.3,20.0,7.0,1.17,0,0,0,1,0,0,0,0
++ 0,7.0,120.0,12.0,5.0,0,0,0,0,0,0,0,1
+Pandemic: Iberia,7.9,45.0,8.0,2.57,0,0,0,0,0,1,0,0
++ 0,6.3,480.0,12.0,3.0,0,0,0,0,0,0,0,1
+Curse of the Idol,5.3,60.0,8.0,1.22,0,1,0,0,0,0,0,0
+Lords of Waterdeep,7.8,60.0,12.0,2.46,0,0,0,0,0,1,0,0
+The Lord of the Rings: The Card Game,7.6,30.0,13.0,3.18,0,0,1,0,0,0,0,0
+My First Brain Quest Preschool Animal Matching,6.0,10.0,2.0,1.0,0,1,0,0,0,0,0,0
+Quao,5.0,60.0,12.0,1.1,0,0,0,0,1,0,0,0
+Global Pursuit,5.2,60.0,10.0,1.84,0,0,0,1,0,0,0,0
+Dinosaur Island,7.7,90.0,8.0,3.04,0,0,0,0,0,1,0,0
+Dr. Seuss Green Eggs and Ham Game,4.1,30.0,4.0,1.13,0,1,0,0,0,0,0,0
+Lost Ruins of Arnak,8.2,30.0,12.0,2.75,0,0,0,1,0,0,0,0
+Azul,7.8,30.0,8.0,1.76,1,0,0,0,0,0,0,0
+Chaos in the Old World,7.7,60.0,13.0,3.19,0,0,0,0,0,1,0,0
+Twilight Imperium: Fourth Edition,8.7,240.0,14.0,4.23,0,0,0,0,0,1,0,0
+Keyflower,7.8,90.0,12.0,3.35,0,0,0,0,0,1,0,0
+Goa,7.6,90.0,12.0,3.38,0,0,0,0,0,1,0,0
+Ora et Labora,7.7,60.0,13.0,3.9,0,0,0,0,0,1,0,0
+Twilight Struggle,8.3,120.0,13.0,3.59,0,0,0,0,0,1,0,0
+Hansa Teutonica,7.7,45.0,12.0,3.12,0,0,0,0,0,1,0,0
+Decrypto,7.8,15.0,12.0,1.82,0,0,0,0,1,0,0,0
+Alchemists,7.7,120.0,13.0,3.9,0,0,0,0,0,1,0,0
+Cartographers,7.8,30.0,10.0,1.91,0,0,0,1,0,0,0,0
+Cir*Kis,5.3,15.0,8.0,1.67,1,0,0,0,0,0,0,0
+S.A.B.O.T.,0.0,30.0,12.0,0.0,0,0,0,0,0,0,0,1
+Concordia,8.1,100.0,13.0,3.02,0,0,0,0,0,1,0,0
+Forbidden Stars,8.0,120.0,14.0,3.83,0,0,0,0,0,1,0,0
+Dominion: Intrigue,7.7,30.0,13.0,2.42,0,0,0,0,0,1,0,0
+Orléans,8.1,90.0,12.0,3.05,0,0,0,0,0,1,0,0
+Sekigahara: The Unification of Japan,8.0,180.0,14.0,2.78,0,0,0,0,0,0,0,1
+Twilight Imperium: Third Edition,7.8,180.0,14.0,4.25,0,0,0,0,0,1,0,0
+Clank! In! Space!: A Deck-Building Adventure,7.9,45.0,12.0,2.53,0,0,0,0,0,1,0,0
+Continuo,5.3,20.0,4.0,1.41,1,0,0,0,0,0,0,0
+Ra,7.5,45.0,12.0,2.35,0,0,0,0,0,1,0,0
+Alaska,5.8,60.0,12.0,1.44,0,0,0,1,0,0,0,0
+Redneck Life,5.4,60.0,13.0,1.43,0,0,0,0,1,0,0,0
+Tyrants of the Underdark,7.9,60.0,14.0,2.57,0,0,0,0,0,1,0,0
+Galaxy's Edge,6.1,60.0,10.0,2.39,0,0,0,0,0,1,0,0
+Check Your 6! Jet Age,8.0,120.0,12.0,3.11,0,0,0,0,0,0,0,1
+Wingspan,8.1,40.0,10.0,2.42,0,0,0,1,0,0,0,0
+Gators!,6.8,30.0,12.0,4.5,0,0,0,0,0,0,0,1
+Patchwork,7.7,15.0,8.0,1.63,1,0,0,0,0,0,0,0
+Kemet,7.7,90.0,13.0,3.0,0,0,0,0,0,1,0,0
+Secret Hitler,7.6,45.0,13.0,1.69,0,0,0,0,1,0,0,0
+Mombasa,7.9,75.0,12.0,3.9,0,0,0,0,0,1,0,0
+Paladins of the West Kingdom,8.1,90.0,12.0,3.67,0,0,0,0,0,1,0,0
+7 Wonders,7.7,30.0,10.0,2.33,0,0,0,1,0,0,0,0
+Chef Alfredo,6.0,15.0,5.0,1.0,0,1,0,0,0,0,0,0
+Anachrony,8.1,30.0,15.0,4.0,0,0,0,0,0,1,0,0
+Orbital Battle,0.0,30.0,12.0,0.0,0,0,0,0,0,0,0,1
+Oosterbeek Perimeter,8.3,300.0,12.0,3.25,0,0,0,0,0,0,0,1
+Gloomhaven: Jaws of the Lion,8.8,30.0,14.0,3.56,0,0,0,0,0,1,0,0
+Combined Arms: Combat Operations in the 20th Century,4.5,120.0,12.0,2.64,0,0,0,0,0,0,0,1
+Dominoes,5.5,30.0,5.0,1.38,1,0,0,0,0,0,0,0
+Das Kleine Gespenst,6.0,15.0,5.0,1.2,0,1,0,0,0,0,0,0
+Agricola,7.9,30.0,12.0,3.64,0,0,0,0,0,1,0,0
+A Game of Thrones: The Board Game (Second Edition),7.6,120.0,14.0,3.72,0,0,0,0,0,1,0,0
++ 2,7.5,30.0,12.0,0.0,0,0,0,0,0,0,0,1
+A Bridge Too Far: Operation Market Garden,7.0,90.0,12.0,2.11,0,0,0,0,0,0,0,1
+El Grande,7.8,60.0,12.0,3.05,0,0,0,0,0,1,0,0
+Cranium Cadoo,5.3,45.0,7.0,1.2,0,1,0,0,0,0,0,0
+Gekitsui oh,5.0,360.0,12.0,4.0,0,0,0,0,0,0,0,1
+Everdell,8.1,40.0,13.0,2.81,0,0,0,1,0,0,0,0
+Axis Threat,0.0,360.0,12.0,0.0,0,0,0,0,0,0,0,1
+Wabbit Wampage,6.0,120.0,12.0,2.0,0,0,0,0,0,0,1,0
+We Didn't Playtest This At All,5.5,1.0,12.0,1.09,0,0,0,0,1,0,0,0
+A Feast for Odin,8.2,30.0,12.0,3.84,0,0,0,0,0,1,0,0
+Age of Steam,7.8,120.0,13.0,3.9,0,0,0,0,0,1,0,0
+1800: Colorado,6.2,90.0,16.0,3.57,0,0,0,0,0,1,0,0
+Dune: Imperium,8.4,60.0,14.0,2.9,0,0,0,0,0,1,0,0
+Zombicide: Black Plague,7.7,60.0,14.0,2.51,0,0,0,0,0,0,1,0
+Scythe,8.2,90.0,14.0,3.41,0,0,0,0,0,1,0,0
+Lisboa,8.2,60.0,12.0,4.55,0,0,0,0,0,1,0,0
+"The Punic Wars: Rome vs Carthage, 264-146 B.C.",6.1,60.0,12.0,2.48,0,0,0,0,0,0,0,1
+Railways of the World,7.7,120.0,10.0,3.02,0,0,0,0,0,1,0,0
+Domain,6.1,15.0,8.0,1.78,1,0,0,0,0,0,0,0
+Clank!: A Deck-Building Adventure,7.8,30.0,12.0,2.21,0,0,0,1,0,0,0,0
+Gauss,7.0,15.0,10.0,1.75,1,0,0,0,0,0,0,0
+Turn The Terrible Tank,6.3,5.0,6.0,1.0,0,1,0,0,0,0,0,0
+Through the Ages: A Story of Civilization,7.9,120.0,12.0,4.17,0,0,0,0,0,1,0,0
+Romance of the Three Kingdoms,5.6,360.0,12.0,2.0,0,0,0,0,0,0,0,1
+The Princes of Florence,7.5,75.0,12.0,3.25,0,0,0,0,0,1,0,0
+Caylus,7.8,60.0,12.0,3.8,0,0,0,0,0,1,0,0
+On Mars,8.3,90.0,14.0,4.64,0,0,0,0,0,1,0,0
+Five Tribes,7.8,40.0,13.0,2.86,0,0,0,0,0,1,0,0
+Near and Far,7.8,90.0,13.0,2.83,0,0,0,0,0,0,1,0
+Tinian: The Forgotten Battle,8.2,120.0,14.0,3.6,0,0,0,0,0,0,0,1
+The Last Straw,5.0,15.0,5.0,1.0,0,1,0,0,0,0,0,0
+War of the Ring,7.8,120.0,12.0,3.85,0,0,0,0,0,0,1,0
+Lorenzo il Magnifico,7.9,60.0,12.0,3.27,0,0,0,0,0,1,0,0
+Ticket to Ride: Nordic Countries,7.6,30.0,8.0,1.98,0,0,0,1,0,0,0,0
+Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases,7.7,60.0,13.0,2.68,0,0,0,0,0,0,1,0
+Castles of Mad King Ludwig,7.6,90.0,13.0,2.66,0,0,0,0,0,1,0,0
+World War 3: 1976-1984,5.0,360.0,12.0,3.27,0,0,0,0,0,0,0,1
+Welcome To...,7.6,25.0,10.0,1.82,0,0,0,1,0,0,0,0
+Tenjo,5.0,360.0,12.0,3.69,0,0,0,0,0,0,0,1
+Elixir,6.0,60.0,6.0,1.41,0,0,0,1,0,0,0,0
+Rajas of the Ganges,7.7,45.0,12.0,2.87,0,0,0,0,0,1,0,0
+T.I.M.E Stories,7.5,90.0,12.0,2.61,0,0,0,0,0,0,1,0
+Kanban: Driver's Edition,7.8,90.0,12.0,4.35,0,0,0,0,0,1,0,0
+Troyes,7.8,90.0,12.0,3.46,0,0,0,0,0,1,0,0
+The Quacks of Quedlinburg,7.8,45.0,10.0,1.94,0,0,0,1,0,0,0,0
+Battlestar Galactica: The Board Game,7.7,120.0,14.0,3.24,0,0,0,0,0,0,1,0
+Curli Kuller,6.6,20.0,5.0,1.0,0,1,0,0,0,0,0,0
+Karo,6.6,20.0,8.0,2.0,1,0,0,0,0,0,0,0
+Helios,8.0,60.0,10.0,0.0,1,0,0,0,0,0,0,0
+Clans of Caledonia,8.0,30.0,12.0,3.46,0,0,0,0,0,1,0,0
+Horrified,7.8,60.0,10.0,2.05,0,0,0,0,0,0,1,0
+Coimbra,7.7,60.0,14.0,3.28,0,0,0,0,0,1,0,0
+Aeon's End,8.0,60.0,14.0,2.78,0,0,0,0,0,1,0,0
+Marco Polo II: In the Service of the Khan,8.2,60.0,12.0,3.4,0,0,0,0,0,1,0,0
+Monsters Ravage America,5.8,90.0,10.0,2.19,0,0,0,0,0,0,1,0
+Brass: Birmingham,8.7,60.0,14.0,3.91,0,0,0,0,0,1,0,0
+Dominant Species,7.8,120.0,14.0,4.04,0,0,0,0,0,1,0,0
+Mage Knight Board Game,8.1,60.0,14.0,4.31,0,0,0,0,0,1,0,0
+PARKS,7.9,30.0,10.0,2.17,0,0,0,1,0,0,0,0
+Ouro de Tolo,6.7,40.0,8.0,1.17,0,0,0,1,0,0,0,0
+Root,8.1,60.0,10.0,3.68,0,0,0,0,0,1,0,0
+Jaipur,7.5,30.0,12.0,1.49,0,0,0,1,0,0,0,0
+Isolate,4.5,45.0,8.0,1.75,1,0,0,0,0,0,0,0
+The Lord of the Rings: Journeys in Middle-Earth,8.1,60.0,14.0,2.56,0,0,0,0,0,0,1,0
+Code Cracker,6.0,30.0,8.0,1.23,0,0,0,1,0,0,0,0
+Watergate,8.0,30.0,12.0,2.25,0,0,0,0,0,1,0,0
+Kogworks,6.1,30.0,6.0,1.55,1,0,0,0,0,0,0,0
+Pandemic,7.6,45.0,8.0,2.41,0,0,0,1,0,0,0,0
+This War of Mine: The Board Game,7.8,45.0,18.0,3.26,0,0,0,0,0,0,1,0
+Der Herr der Ringe: Die Gefährten,4.8,60.0,10.0,1.6,0,0,0,1,0,0,0,0
+LEGO Racers Super Speedway Game,4.6,30.0,5.0,1.2,0,1,0,0,0,0,0,0
+Stone Age,7.6,60.0,10.0,2.48,0,0,0,1,0,0,0,0
+History of the Second World War,4.1,360.0,12.0,2.5,0,0,0,0,0,0,0,1
+Race for the Galaxy,7.8,30.0,12.0,2.98,0,0,0,0,0,1,0,0
+1830: Railways & Robber Barons,7.9,180.0,14.0,4.16,0,0,0,0,0,1,0,0
+Pax Pamir: Second Edition,8.4,45.0,13.0,3.79,0,0,0,0,0,1,0,0
+Hedbanz for Adults!,5.4,60.0,8.0,1.09,0,0,0,0,1,0,0,0
+Russian Railroads,7.8,90.0,12.0,3.41,0,0,0,0,0,1,0,0
+Ticket to Ride,7.4,30.0,8.0,1.85,0,0,0,1,0,0,0,0
+Inis,7.8,60.0,14.0,2.88,0,0,0,0,0,1,0,0
+Gaia Project,8.5,60.0,12.0,4.35,0,0,0,0,0,1,0,0
+Eldritch Horror,7.8,120.0,14.0,3.32,0,0,0,0,0,0,1,0
+Dead of Winter: A Crossroads Game,7.6,60.0,13.0,3.02,0,0,0,0,0,0,1,0
+Sagrada,7.5,30.0,14.0,1.93,1,0,0,0,0,0,0,0
+Steam,7.6,90.0,10.0,3.46,0,0,0,0,0,1,0,0
+Warfare in the Age of Reason,7.6,180.0,12.0,3.33,0,0,0,0,0,0,0,1
+Star Wars: X-Wing Miniatures Game,7.7,30.0,14.0,2.49,0,0,1,0,0,0,0,0
+Sushi Go Party!,7.5,20.0,8.0,1.31,0,0,0,1,0,0,0,0
+Therapy,5.3,90.0,16.0,1.42,0,0,0,0,1,0,0,0
+Ticket to Ride: Europe,7.5,30.0,8.0,1.94,0,0,0,1,0,0,0,0
+Cyclades,7.5,60.0,13.0,2.82,0,0,0,0,0,1,0,0
+Roll for the Galaxy,7.7,45.0,13.0,2.77,0,0,0,0,0,1,0,0
+Spearhead,6.7,120.0,12.0,2.92,0,0,0,0,0,0,0,1
+Roll Player,7.5,60.0,10.0,2.39,0,0,0,0,0,1,0,0
+Star Realms,7.6,20.0,12.0,1.94,0,0,0,0,0,1,0,0
+Tzolk'in: The Mayan Calendar,7.9,90.0,13.0,3.67,0,0,0,0,0,1,0,0
+War of the Ring: Second Edition,8.5,150.0,13.0,4.15,0,0,0,0,0,0,1,0
+Viticulture Essential Edition,8.1,45.0,13.0,2.9,0,0,0,0,0,1,0,0
+Blood Rage,8.0,60.0,14.0,2.88,0,0,0,0,0,1,0,0
+Robinson Crusoe: Adventures on the Cursed Island,7.8,60.0,14.0,3.78,0,0,0,0,0,0,1,0
+Agricola (Revised Edition),8.0,30.0,12.0,3.5,0,0,0,0,0,1,0,0
+Dominion,7.6,30.0,13.0,2.36,0,0,0,0,0,1,0,0
+Advance to Boardwalk,5.4,60.0,8.0,1.55,0,0,0,1,0,0,0,0
+Splendor,7.4,30.0,10.0,1.8,0,0,0,1,0,0,0,0
+Commands & Colors: Ancients,7.8,60.0,12.0,2.69,0,0,0,0,0,0,0,1
+Through the Ages: A New Story of Civilization,8.4,120.0,14.0,4.41,0,0,0,0,0,1,0,0
+Tainted Grail: The Fall of Avalon,8.4,60.0,14.0,3.29,0,0,0,0,0,0,1,0
+Combat Commander: Europe,7.9,60.0,12.0,3.25,0,0,0,0,0,0,0,1
+The Gallerist,8.0,60.0,13.0,4.28,0,0,0,0,0,1,0,0
+Barrage,8.2,60.0,14.0,4.03,0,0,0,0,0,1,0,0
+Android: Netrunner,7.9,45.0,14.0,3.38,0,0,1,0,0,0,0,0
+Fields of Arle,8.1,60.0,13.0,3.88,0,0,0,0,0,1,0,0
+Arkham Horror: The Card Game,8.2,60.0,14.0,3.44,0,0,1,0,0,0,0,0
+Deception: Murder in Hong Kong,7.5,20.0,14.0,1.6,0,0,0,0,1,0,0,0
+Secrets of the Tombs,4.9,30.0,8.0,1.76,0,0,0,1,0,0,0,0
+Grand Austria Hotel,7.9,60.0,12.0,3.22,0,0,0,0,0,1,0,0
+The 7th Continent,8.1,5.0,14.0,2.87,0,0,0,0,0,0,1,0
+The Quest for El Dorado,7.6,30.0,10.0,1.92,0,0,0,1,0,0,0,0
+Borodino: Doomed Victory,4.3,240.0,12.0,3.2,0,0,0,0,0,0,0,1
+Stalingrad,6.2,360.0,12.0,3.0,0,0,0,0,0,0,0,1
+Saikoro,6.6,10.0,8.0,1.56,1,0,0,0,0,0,0,0
+Eclipse: Second Dawn for the Galaxy,8.8,60.0,14.0,3.47,0,0,0,0,0,1,0,0
+Cthulhu: Death May Die,8.2,90.0,14.0,2.41,0,0,0,0,0,0,1,0
+Kingdom Death: Monster,8.7,60.0,17.0,4.25,0,0,0,0,0,0,1,0

@@ -11,7 +11,9 @@ options.headless = True
 browser = Firefox(executable_path="/usr/local/bin/geckodriver", options=options)
 
 links = []
-for page in tqdm([1, 2, 100, 200, 300]):
+# [1, 2, 3, 4, 99, 100, 101, 200, 201, 300, 301, 302]
+pages = [5, 6, 7, 8, 9, 10, 102, 202]
+for page in tqdm(pages):
     url = f"https://boardgamegeek.com/browse/boardgame/page/{page}"
     browser.get(url)
     soup = Soup(browser.page_source)
@@ -39,7 +41,7 @@ def scrape(link):
     return soup
 
 data = []
-for link in tqdm(links[365:]):
+for link in tqdm(links):
     try:
         soup = scrape(link)
         di = parse(soup)
@@ -49,4 +51,11 @@ for link in tqdm(links[365:]):
     time.sleep(np.random.uniform(0, 1))
 
 df = pd.DataFrame(data, columns=["name", "rating", "time", "age", "complexity", "category"])
-df.to_csv("data/games.csv", index=False)
+df["time"] = df["time"].apply(pd.to_numeric, errors="coerce")
+df["age"] = df["age"].apply(lambda x: pd.to_numeric(x.replace("+", ""), errors="coerce"))
+df = pd.concat([df, pd.get_dummies(df["category"])], axis=1)
+df.columns = [c.replace("'", "").lower() for c in df.columns]
+df = df.dropna()
+df = df.drop("category", axis=1)
+df = df.reset_index(drop=True)
+df.to_csv("data/games2.csv", index=False)
